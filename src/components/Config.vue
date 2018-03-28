@@ -44,6 +44,7 @@
                             <option value=""></option>
                             <option v-for="theme in themes" :value="theme.label">{{ theme.label }}</option>
                         </select>
+                        <small v-if="loadingBaseTheme" class="form-text text-muted">Loading theme...</small>
                     </div>
                 </div>
                 <div class="col">
@@ -408,6 +409,7 @@
                 themeImportText: null,
                 selectedPreset: 'JumboLayout',
                 isModalImportVisible: false,
+                loadingBaseTheme: false,
             };
         },
         watch: {
@@ -419,9 +421,11 @@
             },
             baseTheme(theme) {
                 if (theme) {
-                    fetch(`themes/${theme}.txt`).then((stream) => {
+                    this.loadingBaseTheme = true;
+                    fetch(`themes/available/${theme}.txt`).then((stream) => {
                         return stream.text()
                     }).then((data) => {
+                        this.loadingBaseTheme = false;
                         this.themeImportText = data;
                         this.importTheme();
                     })

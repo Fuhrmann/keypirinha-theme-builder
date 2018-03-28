@@ -2,7 +2,7 @@
 
 ## Keypirinha Themes
 
-A collection of themes for [Keypirinha](keypirinha.com) launcher.
+A collection of themes for [Keypirinha](http://keypirinha.com) launcher.
 
 ## Installation
 
@@ -35,7 +35,13 @@ Since themes can be cascaded (comma-separated list of theme names up to 5 themes
 
 ## Theme previews
 
+Go to the [Theme Builder](https://fuhrmann.github.io/keypirinha-theme-builder/) and select a base theme.
+
+## Credits
+
+Each theme file has its own credits inside.
 
 ## Contribute
 
-Dont forget to update themes.json to include your theme so It will be available at the theme previewer
+Send a pull request to include your theme. Dont forget to update the [theme list](https://github.com/Fuhrmann/keypirinha-theme-builder/blob/master/themes.json).
+
