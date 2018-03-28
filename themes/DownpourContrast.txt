@@ -1,0 +1,31 @@
+# A color theme derived from:
+# https://github.com/rainglow/vscode/tree/master/themes
+[theme/DownpourContrast]
+color_background = #121419
+color_foreground = #d6dbdb
+color_textbox_back = #121419
+color_faded = #d6dbdb
+color_accent = #908bbc
+color_warn = #cf433e
+color_listitem_back = #121419
+color_listitem_title = #f8f8f0
+color_listitem_desc = #d6dbdb
+color_listitem_tips = #d6dbdb
+color_listitem_selected_title = #63a5a5
+color_listitem_selected_desc = #63a5a5
+color_listitem_selected_tips = #63a5a5
+color_listitem_selected_back = #181b22
+opacity_back = 100
+satellite_show = never
+satellite_pos = topcenter
+satellite_size = jumbo
+control_margin = 6
+textbox_padding = 4
+listitem_padding = 4
+layout = list_selmark,list_icon,list_dialnum,list_actions
+font_large_size = 28
+font_large_style = bold
+font_small_size = 10
+font_small_style = cleartype
+font_face = Tahoma, Arial, Segoe UI
+compact_results = no

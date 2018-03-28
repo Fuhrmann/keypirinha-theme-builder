@@ -1,0 +1,31 @@
+# A color theme derived from:
+# https://github.com/rainglow/vscode/tree/master/themes
+[theme/UserscapeContrast]
+color_background = #15181c
+color_foreground = #dce2e8
+color_textbox_back = #15181c
+color_faded = #dce2e8
+color_accent = #355b8c
+color_warn = #cf433e
+color_listitem_back = #15181c
+color_listitem_title = #ffffff
+color_listitem_desc = #dce2e8
+color_listitem_tips = #dce2e8
+color_listitem_selected_title = #e3bd14
+color_listitem_selected_desc = #e3bd14
+color_listitem_selected_tips = #e3bd14
+color_listitem_selected_back = #1c1f25
+opacity_back = 100
+satellite_show = never
+satellite_pos = topcenter
+satellite_size = jumbo
+control_margin = 6
+textbox_padding = 4
+listitem_padding = 4
+layout = list_selmark,list_icon,list_dialnum,list_actions
+font_large_size = 28
+font_large_style = bold
+font_small_size = 10
+font_small_style = cleartype
+font_face = Tahoma, Arial, Segoe UI
+compact_results = no

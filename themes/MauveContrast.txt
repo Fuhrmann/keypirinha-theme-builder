@@ -1,0 +1,31 @@
+# A color theme derived from:
+# https://github.com/rainglow/vscode/tree/master/themes
+[theme/MauveContrast]
+color_background = #191119
+color_foreground = #af92b2
+color_textbox_back = #191119
+color_faded = #af92b2
+color_accent = #c89933
+color_warn = #cf433e
+color_listitem_back = #191119
+color_listitem_title = #f8f8f0
+color_listitem_desc = #af92b2
+color_listitem_tips = #af92b2
+color_listitem_selected_title = #baa353
+color_listitem_selected_desc = #baa353
+color_listitem_selected_tips = #baa353
+color_listitem_selected_back = #221722
+opacity_back = 100
+satellite_show = never
+satellite_pos = topcenter
+satellite_size = jumbo
+control_margin = 6
+textbox_padding = 4
+listitem_padding = 4
+layout = list_selmark,list_icon,list_dialnum,list_actions
+font_large_size = 28
+font_large_style = bold
+font_small_size = 10
+font_small_style = cleartype
+font_face = Tahoma, Arial, Segoe UI
+compact_results = no

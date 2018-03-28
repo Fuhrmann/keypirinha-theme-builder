@@ -1,0 +1,31 @@
+# A color theme derived from:
+# https://github.com/rainglow/vscode/tree/master/themes
+[theme/FranticLight]
+color_background = #ffffff
+color_foreground = #516172
+color_textbox_back = #ffffff
+color_faded = #516172
+color_accent = #ef6462
+color_warn = #cf433e
+color_listitem_back = #ffffff
+color_listitem_title = #333333
+color_listitem_desc = #516172
+color_listitem_tips = #516172
+color_listitem_selected_title = #afa9e5
+color_listitem_selected_desc = #afa9e5
+color_listitem_selected_tips = #afa9e5
+color_listitem_selected_back = #f7f7f7
+opacity_back = 100
+satellite_show = never
+satellite_pos = topcenter
+satellite_size = jumbo
+control_margin = 6
+textbox_padding = 4
+listitem_padding = 4
+layout = list_selmark,list_icon,list_dialnum,list_actions
+font_large_size = 28
+font_large_style = bold
+font_small_size = 10
+font_small_style = cleartype
+font_face = Tahoma, Arial, Segoe UI
+compact_results = no

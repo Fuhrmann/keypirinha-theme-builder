@@ -1,0 +1,236 @@
+label {
+  font-size: 13px;
+}
+
+body {
+  font-size: 100%;
+}
+
+.keypirinha {
+  width: 635px;
+  margin: 155px auto 0 auto;
+
+  .logo {
+    img {
+      max-width: 100%;
+      max-height: 85%;
+      margin: auto;
+      position: absolute;
+      top: 0;
+      left: 10%;
+      bottom: 0;
+    }
+  }
+
+  .searchbox {
+    border-style: solid;
+    margin-top: 8px;
+    min-height: 18px;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    display: table;
+
+    .input {
+      display: table-cell;
+      vertical-align: middle;
+      white-space: nowrap;
+      overflow: hidden;
+      outline: none;
+    }
+  }
+
+  .list-item {
+    border-style: solid;
+    width: 100%;
+    box-sizing: border-box;
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      li {
+        overflow: auto;
+        padding-right: 3px;
+        display: flex;
+        flex-direction: row;
+      }
+    }
+
+    .icon {
+      background-color: #303030;
+      border: 1px solid #555555;
+      margin-right: 5px;
+      align-self: center;
+      position: relative;
+
+      img {
+        max-width: 100%;
+        max-height: 85%;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+
+      }
+    }
+
+    .label {
+      align-self: center;
+      line-height: 1.2;
+
+      .name, .description {
+        display: block;
+      }
+    }
+
+    .helper {
+      text-align: right;
+      flex-grow: 1;
+      align-self: center;
+    }
+  }
+
+  .status-bar {
+    width: 100%;
+    text-align: right;
+    line-height: 2;
+  }
+}
+
+.configuration {
+  margin-bottom: 50px;
+}
+
+.vc-chrome {
+  position: absolute;
+  left: 0;
+  transform: translate(50%, -50%);
+  z-index: 100;
+}
+
+.current-color {
+  display: inline-block;
+  background-color: #000;
+  padding: 3px;
+  cursor: pointer;
+  width: 100%;
+  height: 31px;
+}
+
+.tooltip {
+  display: block !important;
+  z-index: 10000;
+
+  .tooltip-inner {
+    background: black;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px 4px;
+  }
+
+  .tooltip-arrow {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    position: absolute;
+    margin: 5px;
+    border-color: black;
+    z-index: 1;
+  }
+
+  &[x-placement^="top"] {
+    margin-bottom: 5px;
+
+    .tooltip-arrow {
+      border-width: 5px 5px 0 5px;
+      border-left-color: transparent !important;
+      border-right-color: transparent !important;
+      border-bottom-color: transparent !important;
+      bottom: -5px;
+      left: calc(50% - 5px);
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+
+  &[x-placement^="bottom"] {
+    margin-top: 5px;
+
+    .tooltip-arrow {
+      border-width: 0 5px 5px 5px;
+      border-left-color: transparent !important;
+      border-right-color: transparent !important;
+      border-top-color: transparent !important;
+      top: -5px;
+      left: calc(50% - 5px);
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+
+  &[x-placement^="right"] {
+    margin-left: 5px;
+
+    .tooltip-arrow {
+      border-width: 5px 5px 5px 0;
+      border-left-color: transparent !important;
+      border-top-color: transparent !important;
+      border-bottom-color: transparent !important;
+      left: -5px;
+      top: calc(50% - 5px);
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
+  &[x-placement^="left"] {
+    margin-right: 5px;
+
+    .tooltip-arrow {
+      border-width: 5px 0 5px 5px;
+      border-top-color: transparent !important;
+      border-right-color: transparent !important;
+      border-bottom-color: transparent !important;
+      right: -5px;
+      top: calc(50% - 5px);
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
+  &.popover {
+    $color: #f9f9f9;
+
+    .popover-inner {
+      background: $color;
+      color: black;
+      padding: 24px;
+      border-radius: 5px;
+      box-shadow: 0 5px 30px rgba(black, .1);
+    }
+
+    .popover-arrow {
+      border-color: $color;
+    }
+  }
+
+  &[aria-hidden='true'] {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .15s, visibility .15s;
+  }
+
+  &[aria-hidden='false'] {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity .15s;
+  }
+}
+
+.btn:focus {
+  outline: none;
+}

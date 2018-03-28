@@ -1,0 +1,30 @@
+# Theme based on: http://www.packal.org/theme/midnight
+[theme/midnight]
+opacity_back = 100
+satellite_show = never
+satellite_pos = topcenter
+satellite_size = jumbo
+control_margin = 6
+textbox_padding = 5
+listitem_padding = 4
+layout = list_selmark,list_icon,list_dialnum,list_actions
+color_background = #222d34
+color_foreground = #ffffff
+color_textbox_back = #222d34
+color_faded = #ffffff
+color_accent = #a6e5ff
+color_warn = #FFFFFF
+color_listitem_back = #222d34
+color_listitem_title = #D9D9D9FF
+color_listitem_desc = #a2a2a2
+color_listitem_tips = #FEFFFF66
+color_listitem_selected_back = #941a4c
+color_listitem_selected_title = #DBDCDBFF
+color_listitem_selected_desc = #DBDCDBFF
+color_listitem_selected_tips = #FFFFFF
+font_large_size = 26
+font_large_style = cleartype
+font_small_size = 10
+font_small_style = cleartype
+font_face = Tahoma, Arial, Segoe UI
+compact_results = no

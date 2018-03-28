@@ -1,0 +1,30 @@
+# Theme based on: http://www.packal.org/theme/digitpanic-theme
+[theme/DigitPanic]
+opacity_back = 100
+satellite_show = never
+satellite_pos = topcenter
+satellite_size = jumbo
+control_margin = 6
+textbox_padding = 5
+listitem_padding = 4
+layout = list_selmark,list_icon,list_dialnum,list_actions
+color_background = #F0526C
+color_foreground = #F0526C
+color_textbox_back = #FFFFFF
+color_faded = #F0526C
+color_accent = #FFFFFF
+color_warn = #FFFFFF
+color_listitem_back = #F0526C
+color_listitem_title = #FDF492
+color_listitem_desc = #FFFFFF
+color_listitem_tips = #FFFFFF
+color_listitem_selected_back = #0D0D0D
+color_listitem_selected_title = #FFFFFF
+color_listitem_selected_desc = #FDF492
+color_listitem_selected_tips = #FFFFFF
+font_large_size = 25
+font_large_style = bold
+font_small_size = 10
+font_small_style = cleartype
+font_face = Tahoma, Arial, Segoe UI
+compact_results = no

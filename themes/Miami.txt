@@ -1,0 +1,30 @@
+# Theme based on: http://www.packal.org/theme/miami
+[theme/Miami]
+opacity_back = 100
+satellite_show = never
+satellite_pos = topcenter
+satellite_size = jumbo
+control_margin = 6
+textbox_padding = 4
+listitem_padding = 2
+layout = list_selmark,list_icon,list_dialnum,list_actions
+color_background = #484644
+color_foreground = #525e5b
+color_textbox_back = #41f5ff
+color_faded = #948A98
+color_accent = #41f5ff
+color_warn = #000000
+color_listitem_back = #383838
+color_listitem_title = #79dcd6
+color_listitem_desc = #c982bf
+color_listitem_tips = #14E2D0
+color_listitem_selected_back = #f9a2e7
+color_listitem_selected_title = #35243E
+color_listitem_selected_desc = #35243E
+color_listitem_selected_tips = #0E6F63
+font_large_size = 26
+font_large_style = cleartype
+font_small_size = 11
+font_small_style = cleartype
+font_face = Tahoma, Arial, Segoe UI
+compact_results = no

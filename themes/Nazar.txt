@@ -1,0 +1,30 @@
+# Theme based on: http://www.packal.org/theme/nazar
+[theme/Nazar]
+opacity_back = 100
+satellite_show = never
+satellite_pos = topcenter
+satellite_size = jumbo
+control_margin = 6
+textbox_padding = 8
+listitem_padding = 4
+layout = list_selmark,list_icon,list_actions,list_dialnum
+color_background = #383E4D
+color_foreground = #E6C748
+color_textbox_back = #383E4D
+color_faded = #E6C748
+color_accent = #E6C748
+color_warn = #EB6420
+color_listitem_back = #383E4D
+color_listitem_title = #889092
+color_listitem_desc = #889092
+color_listitem_tips = #383E4D
+color_listitem_selected_back = #363C4C
+color_listitem_selected_title = #E6C748
+color_listitem_selected_desc = #E6C748
+color_listitem_selected_tips = #889092
+font_large_size = 26
+font_large_style = bold
+font_small_size = 10
+font_small_style = cleartype
+font_face = Tahoma, Arial, Segoe UI
+compact_results = no

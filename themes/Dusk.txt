@@ -1,0 +1,30 @@
+# Theme based on: http://www.packal.org/theme/dusk
+[theme/Dusk]
+opacity_back = 100
+satellite_show = never
+satellite_pos = topcenter
+satellite_size = jumbo
+control_margin = 6
+textbox_padding = 10
+listitem_padding = 4
+layout = list_selmark,list_icon,list_dialnum,list_actions
+color_background = #353841
+color_foreground = #C93D9A
+color_textbox_back = #353841
+color_faded = #C93D9A
+color_accent = #E35050
+color_warn = #FDFEFD
+color_listitem_back = #353841
+color_listitem_title = #CD895F
+color_listitem_desc = #6B6A6E
+color_listitem_tips = #847DC2
+color_listitem_selected_back = #32343B
+color_listitem_selected_title = #FDFEFD
+color_listitem_selected_desc = #3FBB64
+color_listitem_selected_tips = #E35050
+font_large_size = 28
+font_large_style = cleartype
+font_small_size = 10
+font_small_style = cleartype
+font_face = Tahoma, Arial, Segoe UI
+compact_results = no

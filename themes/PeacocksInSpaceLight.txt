@@ -1,0 +1,31 @@
+# A color theme derived from:
+# https://github.com/rainglow/vscode/tree/master/themes
+[theme/PeacocksInSpaceLight]
+color_background = #dee3ec
+color_foreground = #2b303b
+color_textbox_back = #dee3ec
+color_faded = #2b303b
+color_accent = #26a6a6
+color_warn = #cf433e
+color_listitem_back = #dee3ec
+color_listitem_title = #2b303b
+color_listitem_desc = #2b303b
+color_listitem_tips = #2b303b
+color_listitem_selected_title = #a6b73a
+color_listitem_selected_desc = #a6b73a
+color_listitem_selected_tips = #a6b73a
+color_listitem_selected_back = #d4dbe6
+opacity_back = 100
+satellite_show = never
+satellite_pos = topcenter
+satellite_size = jumbo
+control_margin = 6
+textbox_padding = 4
+listitem_padding = 4
+layout = list_selmark,list_icon,list_dialnum,list_actions
+font_large_size = 28
+font_large_style = bold
+font_small_size = 10
+font_small_style = cleartype
+font_face = Tahoma, Arial, Segoe UI
+compact_results = no
