@@ -6,4 +6,4 @@ A tool to create themes for [Keypirinha](http://keypirinha.com) launcher. [Click
 
 ## Themes
 
-Go to the [themes](https://github.com/Fuhrmann/keypirinha-theme-builder/blob/master/themes.json) folder to see the current available themes.
+Go to the [themes](https://github.com/Fuhrmann/keypirinha-theme-builder/tree/master/themes) folder to see the current available themes.
