@@ -17,6 +17,8 @@
                 <p>
                     Made with <span style="color: #e25555;">&hearts;</span> by
                     <a href="https://github.com/Fuhrmann" target="_blank">Fuhrmann</a>
+                    |
+                    <a href="https://github.com/Fuhrmann/keypirinha-theme-builder" target="_blank">Github</a>
                 </p>
             </div>
         </div>
