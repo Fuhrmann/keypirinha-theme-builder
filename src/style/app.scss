@@ -55,6 +55,10 @@ body {
         padding-right: 3px;
         display: flex;
         flex-direction: row;
+
+        .action-count {
+          white-space: nowrap;
+        }
       }
     }
 
@@ -81,9 +85,18 @@ body {
     .label {
       align-self: center;
       line-height: 1.2;
+      max-width: 70%;
 
-      .name, .description {
+      .name {
         display: block;
+      }
+
+      .description {
+        display: block;
+        white-space: nowrap;
+        -ms-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+        overflow: hidden;
       }
     }
 

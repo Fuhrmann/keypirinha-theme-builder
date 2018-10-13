@@ -30,6 +30,7 @@ const initialState = {
             name: 'TinyLayout',
             theme: {
                 font_small_size: 10,
+                font_snormal_size: 10,
                 font_normal_size: 10,
                 font_large_size: 10,
                 layout: ['list_icon', 'list_dialnum', 'list_selmark', 'list_actions'],
@@ -37,13 +38,15 @@ const initialState = {
                 satellite_show: 'never',
                 control_margin: 2,
                 textbox_padding: 1,
-                listitem_padding: 1
+                listitem_padding: 1,
+                listitem_title_font: 'snormal'
             }
         },
         {
             name: 'MiniLayout',
             theme: {
                 font_small_size: 10,
+                font_snormal_size: 10,
                 font_normal_size: 12,
                 font_large_size: 18,
                 layout: ['list_icon', 'list_dialnum', 'list_selmark', 'list_actions'],
@@ -54,12 +57,14 @@ const initialState = {
                 control_margin: 3,
                 textbox_padding: 1,
                 listitem_padding: 1,
+                listitem_title_font: 'snormal'
             }
         },
         {
             name: 'MediumLayout',
             theme: {
                 font_small_size: 10,
+                font_snormal_size: 10,
                 font_normal_size: 12,
                 font_large_size: 18,
                 layout: ['list_icon', 'list_dialnum', 'list_selmark', 'list_actions'],
@@ -70,12 +75,14 @@ const initialState = {
                 textbox_padding: 3,
                 listitem_padding: 1,
                 compact_results: 'no',
+                listitem_title_font: 'snormal'
             }
         },
         {
             name: 'JumboLayout',
             theme: {
-                font_small_size: 10,
+                font_small_size: 9,
+                font_snormal_size: 14,
                 font_normal_size: 14,
                 font_large_size: 28,
                 layout: ['list_selmark', 'list_icon', 'list_dialnum', 'list_actions'],
@@ -85,7 +92,8 @@ const initialState = {
                 satellite_size: 'jumbo',
                 control_margin: 6,
                 textbox_padding: 4,
-                listitem_padding: 4,
+                listitem_padding: 2,
+                listitem_title_font: 'snormal'
             }
         },
     ],
@@ -124,10 +132,15 @@ const initialState = {
         color_listitem_selected_tips: '#a6e5ff',
         font_large_size: 28,
         font_large_style: 'bold',
+        font_snormal_size: 10,
+        font_snormal_style: 'cleartype',
+        font_normal_size: 10,
+        font_normal_style: 'cleartype',
         font_small_size: 10,
         font_small_style: 'cleartype',
         font_face: 'Tahoma, Arial, Segoe UI',
         compact_results: 'no',
+        listitem_title_font: 'snormal',
     }
 };
 
@@ -298,12 +311,42 @@ export const store = new Vuex.Store({
          * The style used for each result in the result list.
          */
         listItemResultStyle(state) {
+            let fontSize = state.theme.font_small_size;
+            let fontStyle = state.theme.font_small_style;
+
+            switch (state.theme.listitem_title_font) {
+                case 'small':
+                    fontSize = state.theme.font_small_size;
+                    fontStyle = state.theme.font_small_style;
+                    break;
+                case 'snormal':
+                    fontSize = state.theme.font_snormal_size;
+                    fontStyle = state.theme.font_snormal_style;
+                    break;
+                case 'normal':
+                    fontSize = state.theme.font_normal_size;
+                    fontStyle = state.theme.font_normal_style;
+                    break;
+                case 'large':
+                    fontSize = state.theme.font_large_size;
+                    fontStyle = state.theme.font_large_style;
+                    break;
+            }
+
+            // Compact results always use the font small size
+            if (state.theme.compact_results == 'yes') {
+                fontSize = state.theme.font_small_size;
+                fontStyle = state.theme.font_small_style;
+            }
+
+            fontSize = parseInt(fontSize) + 4
+
             return {
-                fontWeight: state.theme.font_small_style === 'bold' ? 'bold' : 100,
+                fontWeight: fontStyle === 'bold' ? 'bold' : 100,
                 paddingLeft: state.theme.layout.indexOf('list_selmark') > -1 ? '5px' : '3px',
                 paddingTop: `${state.theme.listitem_padding}px`,
                 paddingBottom: `${state.theme.listitem_padding}px`,
-                fontSize: `${parseInt(state.theme.font_small_size) + 4}px`,
+                fontSize: `${fontSize}px`,
                 fontFamily: 'Tahoma',
                 backgroundColor: state.theme.color_listitem_back,
                 minHeight: state.theme.compact_results === 'yes' ? '25px' : '44px',
@@ -352,6 +395,8 @@ export const store = new Vuex.Store({
          */
         listItemDescStyle(state) {
             return {
+                fontSize: `${(parseInt(state.theme.font_small_size) + 4)}px`,
+                fontWeight: state.theme.font_small_style === 'bold' ? 'bold' : 100,
                 color: state.theme.color_listitem_desc
             }
         },
@@ -360,6 +405,8 @@ export const store = new Vuex.Store({
          */
         listItemSelectedDescStyle(state) {
             return {
+                fontSize: `${(parseInt(state.theme.font_small_size) + 4)}px`,
+                fontWeight: state.theme.font_small_style === 'bold' ? 'bold' : 100,
                 color: state.currentView === 'error' ? state.theme.color_warn : state.theme.color_listitem_selected_desc
             }
         },
@@ -380,6 +427,8 @@ export const store = new Vuex.Store({
          */
         listItemHelperStyle(state) {
             return {
+                fontSize: `${(parseInt(state.theme.font_small_size) + 4)}px`,
+                fontWeight: state.theme.font_small_style === 'bold' ? 'bold' : 100,
                 color: state.theme.color_listitem_tips,
             }
         },
@@ -388,6 +437,8 @@ export const store = new Vuex.Store({
          */
         listItemSelectedHelperStyle(state) {
             return {
+                fontSize: `${(parseInt(state.theme.font_small_size) + 4)}px`,
+                fontWeight: state.theme.font_small_style === 'bold' ? 'bold' : 100,
                 color: state.theme.color_listitem_selected_tips,
             }
         }

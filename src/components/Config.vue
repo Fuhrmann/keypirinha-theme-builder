@@ -182,7 +182,7 @@
                 <div class="col-lg-2">
                     <div class="form-group">
                         <label for="font_large_size">
-                            Font size
+                            Font size (large)
                             <a href="#" v-tooltip.right="'Used for the title and the text control'">[?]</a>
                         </label>
                         <input type="number" min="1" id="font_large_size" class="form-control form-control-sm" name="font_large_size" v-model="theme.font_large_size">
@@ -191,7 +191,7 @@
                 <div class="col-lg-2">
                     <div class="form-group">
                         <label for="font_large_style">
-                            Font style
+                            Font style (large)
                             <a href="#" v-tooltip.right="'Used for the title and the text control'">[?]</a>
                         </label>
                         <select name="font_large_style" id="font_large_style" class="form-control form-control-sm" v-model="theme.font_large_style">
@@ -327,10 +327,70 @@
                         </select>
                     </div>
                 </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="form-group">
+                        <label for="listitem_title_font">
+                            Title font
+                            <a href="#" v-tooltip.right="'The font to use for the title of an item in the results list'">[?]</a>
+                        </label>
+                        <select name="listitem_title_font" id="listitem_title_font" class="form-control form-control-sm" v-model="theme.listitem_title_font">
+                            <option value="small">small</option>
+                            <option value="snormal">snormal</option>
+                            <option value="normal">normal</option>
+                            <option value="large">large</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="form-group">
+                        <label for="font_normal_size">
+                            Font size (normal)
+                            <a href="#" v-tooltip.right="'Used for the title and the text control only when the title is lengthy'">[?]</a>
+                        </label>
+                        <input type="number" min="1" id="font_normal_size" class="form-control form-control-sm" name="font_normal_size" v-model="theme.font_normal_size">
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="form-group">
+                        <label for="font_normal_style">
+                            Font style (normal)
+                            <a href="#" v-tooltip.right="'Used for the title and the text control only when the title is lengthy'">[?]</a>
+                        </label>
+                        <select name="font_normal_style" id="font_normal_style" class="form-control form-control-sm" v-model="theme.font_normal_style">
+                            <option value="bold">bold</option>
+                            <option value="cleartype">cleartype</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="form-group">
+                        <label for="font_snormal_size">
+                            Font size (snormal)
+                            <a href="#" v-tooltip.right="'Used for the title part of the list item by default'">[?]</a>
+                        </label>
+                        <input type="number" min="1" id="font_snormal_size" class="form-control form-control-sm" name="font_snormal_size" v-model="theme.font_snormal_size">
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="form-group">
+                        <label for="font_snormal_style">
+                            Font style (snormal)
+                            <a href="#" v-tooltip.right="'Used for the title part of the list item by default'">[?]</a>
+                        </label>
+                        <select name="font_snormal_style" id="font_snormal_style" class="form-control form-control-sm" v-model="theme.font_snormal_style">
+                            <option value="bold">bold</option>
+                            <option value="cleartype">cleartype</option>
+                        </select>
+                    </div>
+                </div>
                 <div class="col-lg-2">
                     <div class="form-group">
                         <label for="font_small_size">
-                            Font size
+                            Font size (small)
                             <a href="#" v-tooltip.right="'Used for list items and status bar'">[?]</a>
                         </label>
                         <input type="number" min="1" id="font_small_size" class="form-control form-control-sm" name="font_small_size" v-model="theme.font_small_size">
@@ -339,7 +399,7 @@
                 <div class="col-lg-2">
                     <div class="form-group">
                         <label for="font_small_style">
-                            Font style
+                            Font style (small)
                             <a href="#" v-tooltip.right="'Used for list items and status bar'">[?]</a>
                         </label>
                         <select name="font_small_style" id="font_small_style" class="form-control form-control-sm" v-model="theme.font_small_style">
