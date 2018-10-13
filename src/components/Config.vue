@@ -40,9 +40,9 @@
                             Base theme
                             <a href="#" v-tooltip.right="'Choose one of the themes below so you can use it as a base to your own theme. The current theme will be reseted.'">[?]</a>
                         </label>
-                        <select name="baseTheme" id="baseTheme" class="form-control form-control-sm" v-model="baseTheme">
+                        <select name="baseTheme" @change="importFromSelect" id="baseTheme" class="form-control form-control-sm" v-model="baseTheme">
                             <option value=""></option>
-                            <option v-for="theme in themes" :value="theme.label">{{ theme.label }}</option>
+                            <option v-for="theme in themes" :value="theme">{{ theme }}</option>
                         </select>
                         <small v-if="loadingBaseTheme" class="form-text text-muted">Loading theme...</small>
                     </div>
@@ -460,14 +460,14 @@
                 </form>
             </div>
             <div slot="footer">
-                <button type="button" @click="importTheme" class="btn btn-primary" :disabled="!themeImportText">Import</button>
+                <button type="button" @click="importFromModal" class="btn btn-primary" :disabled="!themeImportText">Import</button>
             </div>
         </modal>
     </div>
 </template>
 
 <script>
-    import {mapGetters, mapMutations} from 'vuex'
+    import {mapActions, mapGetters, mapMutations} from 'vuex'
     import Modal from './Modal.vue'
     import ColorPicker from './ColorPicker.vue'
 
@@ -490,20 +490,9 @@
                     this.bulkUpdateTheme(preset.theme);
                 }
             },
-            baseTheme(theme) {
-                if (theme) {
-                    this.loadingBaseTheme = true;
-                    fetch(`themes/available/${theme}.txt`).then((stream) => {
-                        return stream.text()
-                    }).then((data) => {
-                        this.loadingBaseTheme = false;
-                        this.themeImportText = data;
-                        this.importTheme();
-                    })
-                } else {
-                    this.resetTheme();
-                }
-            },
+            selectedTheme(theme) {
+                this.baseTheme = theme
+            }
         },
         methods: {
             showImportModal() {
@@ -511,6 +500,18 @@
             },
             closeImportModal() {
                 this.isModalImportVisible = false;
+            },
+            importFromModal() {
+                this.importFromUser(this.themeImportText)
+                this.closeImportModal();
+            },
+            importFromSelect() {
+                if (this.baseTheme) {
+                    this.importThemeFromFile(this.baseTheme);
+                    this.closeImportModal();
+                } else {
+                    this.resetTheme();
+                }
             },
             downloadTheme() {
                 let theme = `[theme/${this.themeName}]\r\n`;
@@ -526,39 +527,8 @@
                 element.click();
                 document.body.removeChild(element);
             },
-            importTheme() {
-                const lines = this.themeImportText.split('\n');
-
-                let newTheme = [];
-                for (let line of lines) {
-                    // Theme name, if present
-                    // [theme/ThemeName]
-                    if (line.indexOf('[theme/') > -1) {
-                        const name = line.match(/\[([\w\d]+)\/([\w\d]+)\]/i);
-                        if (typeof name[2] !== 'undefined') {
-                            this.setThemeName(name[2]);
-                        }
-                    }
-
-                    if (line.indexOf('=') > -1) {
-                        const matches = line.split('=');
-
-                        const configuration = matches[0].trim();
-                        let value = matches[1].trim();
-                        if (value.indexOf(',') > -1) {
-                            value = value.split(',').map(item => item.trim());
-                        }
-
-                        newTheme[configuration] = value;
-                    }
-                }
-
-                this.themeImportText = null;
-                this.resetTheme();
-                this.bulkUpdateTheme(newTheme);
-                this.closeImportModal();
-            },
-            ...mapMutations(['bulkUpdateTheme', 'setCurrentView', 'setThemeName', 'resetTheme'])
+            ...mapActions(['importThemeFromFile', 'importFromUser']),
+            ...mapMutations(['bulkUpdateTheme', 'setCurrentView', 'resetTheme'])
         },
         computed: {
             ...mapGetters([
@@ -567,6 +537,11 @@
                 'presets',
                 'views'
             ]),
+            selectedTheme: {
+                get() {
+                    return this.$store.state.selectedTheme;
+                }
+            },
             themeName: {
                 get() {
                     return this.$store.state.themeName;

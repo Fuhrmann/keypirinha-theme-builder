@@ -5,7 +5,7 @@
                 <img src="src/images/logo.png">
             </div>
         </div>
-        <div class="input">Keypirinha</div>
+        <div class="input">{{ themeName}}</div>
     </div>
 </template>
 
@@ -20,6 +20,11 @@
                 'satelliteAnchorStyle',
                 'satelliteIconStyle'
             ]),
+            themeName: {
+                get() {
+                    return this.$store.state.themeName;
+                }
+            },
         }
     }
 </script>

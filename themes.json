@@ -1,1010 +1,338 @@
 [
-    {
-        "label": "Absent"
-    },
-    {
-        "label": "AbsentContrast"
-    },
-    {
-        "label": "AbsentLight"
-    },
-    {
-        "label": "Allure"
-    },
-    {
-        "label": "AllureContrast"
-    },
-    {
-        "label": "AllureLight"
-    },
-    {
-        "label": "Arstotzka"
-    },
-    {
-        "label": "ArstotzkaContrast"
-    },
-    {
-        "label": "ArstotzkaLight"
-    },
-    {
-        "label": "Azure"
-    },
-    {
-        "label": "AzureContrast"
-    },
-    {
-        "label": "AzureLight"
-    },
-    {
-        "label": "Banner"
-    },
-    {
-        "label": "BannerContrast"
-    },
-    {
-        "label": "BannerLight"
-    },
-    {
-        "label": "Blink"
-    },
-    {
-        "label": "BlinkContrast"
-    },
-    {
-        "label": "BlinkLight"
-    },
-    {
-        "label": "Bold"
-    },
-    {
-        "label": "BoldContrast"
-    },
-    {
-        "label": "BoldLight"
-    },
-    {
-        "label": "Boxuk"
-    },
-    {
-        "label": "BoxukContrast"
-    },
-    {
-        "label": "BoxukLight"
-    },
-    {
-        "label": "Brave"
-    },
-    {
-        "label": "BraveContrast"
-    },
-    {
-        "label": "BraveLight"
-    },
-    {
-        "label": "Carbonight"
-    },
-    {
-        "label": "CarbonightContrast"
-    },
-    {
-        "label": "CarbonightLight"
-    },
-    {
-        "label": "Chocolate"
-    },
-    {
-        "label": "ChocolateContrast"
-    },
-    {
-        "label": "ChocolateLight"
-    },
-    {
-        "label": "Codecourse"
-    },
-    {
-        "label": "CodecourseContrast"
-    },
-    {
-        "label": "CodecourseLight"
-    },
-    {
-        "label": "Coffee"
-    },
-    {
-        "label": "CoffeeContrast"
-    },
-    {
-        "label": "CoffeeLight"
-    },
-    {
-        "label": "Comrade"
-    },
-    {
-        "label": "ComradeContrast"
-    },
-    {
-        "label": "ComradeLight"
-    },
-    {
-        "label": "Crackpot"
-    },
-    {
-        "label": "CrackpotContrast"
-    },
-    {
-        "label": "CrackpotLight"
-    },
-    {
-        "label": "Crisp"
-    },
-    {
-        "label": "CrispContrast"
-    },
-    {
-        "label": "CrispLight"
-    },
-    {
-        "label": "Dare"
-    },
-    {
-        "label": "DareContrast"
-    },
-    {
-        "label": "DareLight"
-    },
-    {
-        "label": "Darkside"
-    },
-    {
-        "label": "DarksideContrast"
-    },
-    {
-        "label": "DarksideLight"
-    },
-    {
-        "label": "DigitPanic"
-    },
-    {
-        "label": "Downpour"
-    },
-    {
-        "label": "DownpourContrast"
-    },
-    {
-        "label": "DownpourLight"
-    },
-    {
-        "label": "Dusk"
-    },
-    {
-        "label": "Earthsong"
-    },
-    {
-        "label": "EarthsongContrast"
-    },
-    {
-        "label": "EarthsongLight"
-    },
-    {
-        "label": "Fodder"
-    },
-    {
-        "label": "FodderContrast"
-    },
-    {
-        "label": "FodderLight"
-    },
-    {
-        "label": "Frantic"
-    },
-    {
-        "label": "FranticContrast"
-    },
-    {
-        "label": "FranticLight"
-    },
-    {
-        "label": "Freshcut"
-    },
-    {
-        "label": "FreshcutContrast"
-    },
-    {
-        "label": "FreshcutLight"
-    },
-    {
-        "label": "Friction"
-    },
-    {
-        "label": "FrictionContrast"
-    },
-    {
-        "label": "FrictionLight"
-    },
-    {
-        "label": "Frontier"
-    },
-    {
-        "label": "FrontierContrast"
-    },
-    {
-        "label": "FrontierLight"
-    },
-    {
-        "label": "GirlWithKitten"
-    },
-    {
-        "label": "Github"
-    },
-    {
-        "label": "GithubContrast"
-    },
-    {
-        "label": "GithubLight"
-    },
-    {
-        "label": "Glance"
-    },
-    {
-        "label": "GlanceContrast"
-    },
-    {
-        "label": "GlanceLight"
-    },
-    {
-        "label": "Gloom"
-    },
-    {
-        "label": "GloomContrast"
-    },
-    {
-        "label": "GloomLight"
-    },
-    {
-        "label": "Glowfish"
-    },
-    {
-        "label": "GlowfishContrast"
-    },
-    {
-        "label": "GlowfishLight"
-    },
-    {
-        "label": "Goldfish"
-    },
-    {
-        "label": "GoldfishContrast"
-    },
-    {
-        "label": "GoldfishLight"
-    },
-    {
-        "label": "Grunge"
-    },
-    {
-        "label": "GrungeContrast"
-    },
-    {
-        "label": "GrungeLight"
-    },
-    {
-        "label": "Halflife"
-    },
-    {
-        "label": "HalflifeContrast"
-    },
-    {
-        "label": "HalflifeLight"
-    },
-    {
-        "label": "Hawaii"
-    },
-    {
-        "label": "HawaiiContrast"
-    },
-    {
-        "label": "HawaiiLight"
-    },
-    {
-        "label": "Heroku"
-    },
-    {
-        "label": "HerokuContrast"
-    },
-    {
-        "label": "HerokuLight"
-    },
-    {
-        "label": "Hive"
-    },
-    {
-        "label": "HiveContrast"
-    },
-    {
-        "label": "HiveLight"
-    },
-    {
-        "label": "Horizon"
-    },
-    {
-        "label": "HorizonContrast"
-    },
-    {
-        "label": "HorizonLight"
-    },
-    {
-        "label": "Hub"
-    },
-    {
-        "label": "HubContrast"
-    },
-    {
-        "label": "HubLight"
-    },
-    {
-        "label": "Hyrule"
-    },
-    {
-        "label": "HyruleContrast"
-    },
-    {
-        "label": "HyruleLight"
-    },
-    {
-        "label": "Iceberg"
-    },
-    {
-        "label": "IcebergContrast"
-    },
-    {
-        "label": "IcebergLight"
-    },
-    {
-        "label": "Isotope"
-    },
-    {
-        "label": "IsotopeContrast"
-    },
-    {
-        "label": "IsotopeLight"
-    },
-    {
-        "label": "Jewel"
-    },
-    {
-        "label": "JewelContrast"
-    },
-    {
-        "label": "JewelLight"
-    },
-    {
-        "label": "Jingle"
-    },
-    {
-        "label": "JingleContrast"
-    },
-    {
-        "label": "JingleLight"
-    },
-    {
-        "label": "Joker"
-    },
-    {
-        "label": "JokerContrast"
-    },
-    {
-        "label": "JokerLight"
-    },
-    {
-        "label": "Juicy"
-    },
-    {
-        "label": "JuicyContrast"
-    },
-    {
-        "label": "JuicyLight"
-    },
-    {
-        "label": "Jumper"
-    },
-    {
-        "label": "JumperContrast"
-    },
-    {
-        "label": "JumperLight"
-    },
-    {
-        "label": "Keen"
-    },
-    {
-        "label": "KeenContrast"
-    },
-    {
-        "label": "KeenLight"
-    },
-    {
-        "label": "Kiwi"
-    },
-    {
-        "label": "KiwiContrast"
-    },
-    {
-        "label": "KiwiLight"
-    },
-    {
-        "label": "Laracasts"
-    },
-    {
-        "label": "LaracastsContrast"
-    },
-    {
-        "label": "LaracastsLight"
-    },
-    {
-        "label": "Laravel"
-    },
-    {
-        "label": "LaravelContrast"
-    },
-    {
-        "label": "LaravelLight"
-    },
-    {
-        "label": "Lavender"
-    },
-    {
-        "label": "LavenderContrast"
-    },
-    {
-        "label": "LavenderLight"
-    },
-    {
-        "label": "Legacy"
-    },
-    {
-        "label": "LegacyContrast"
-    },
-    {
-        "label": "LegacyLight"
-    },
-    {
-        "label": "Lichen"
-    },
-    {
-        "label": "LichenContrast"
-    },
-    {
-        "label": "LichenLight"
-    },
-    {
-        "label": "Loyal"
-    },
-    {
-        "label": "LoyalContrast"
-    },
-    {
-        "label": "LoyalLight"
-    },
-    {
-        "label": "Mauve"
-    },
-    {
-        "label": "MauveContrast"
-    },
-    {
-        "label": "MauveLight"
-    },
-    {
-        "label": "Mellow"
-    },
-    {
-        "label": "MellowContrast"
-    },
-    {
-        "label": "MellowLight"
-    },
-    {
-        "label": "Miami"
-    },
-    {
-        "label": "Midnight"
-    },
-    {
-        "label": "Mintchoc"
-    },
-    {
-        "label": "MintchocContrast"
-    },
-    {
-        "label": "MintchocLight"
-    },
-    {
-        "label": "Monzo"
-    },
-    {
-        "label": "MonzoContrast"
-    },
-    {
-        "label": "MonzoLight"
-    },
-    {
-        "label": "Morass"
-    },
-    {
-        "label": "MorassContrast"
-    },
-    {
-        "label": "MorassLight"
-    },
-    {
-        "label": "Mud"
-    },
-    {
-        "label": "MudContrast"
-    },
-    {
-        "label": "MudLight"
-    },
-    {
-        "label": "Nazar"
-    },
-    {
-        "label": "NeonDreams"
-    },
-    {
-        "label": "Newton"
-    },
-    {
-        "label": "NewtonContrast"
-    },
-    {
-        "label": "NewtonLight"
-    },
-    {
-        "label": "NightVision"
-    },
-    {
-        "label": "Otakon"
-    },
-    {
-        "label": "OtakonContrast"
-    },
-    {
-        "label": "OtakonLight"
-    },
-    {
-        "label": "Overflow"
-    },
-    {
-        "label": "OverflowContrast"
-    },
-    {
-        "label": "OverflowLight"
-    },
-    {
-        "label": "Pastel"
-    },
-    {
-        "label": "PastelContrast"
-    },
-    {
-        "label": "PastelLight"
-    },
-    {
-        "label": "Patriot"
-    },
-    {
-        "label": "PatriotContrast"
-    },
-    {
-        "label": "PatriotLight"
-    },
-    {
-        "label": "Peacock"
-    },
-    {
-        "label": "PeacockContrast"
-    },
-    {
-        "label": "PeacockLight"
-    },
-    {
-        "label": "PeacocksInSpace"
-    },
-    {
-        "label": "PeacocksInSpaceContrast"
-    },
-    {
-        "label": "PeacocksInSpaceLight"
-    },
-    {
-        "label": "Peel"
-    },
-    {
-        "label": "PeelContrast"
-    },
-    {
-        "label": "PeelLight"
-    },
-    {
-        "label": "Penitent"
-    },
-    {
-        "label": "PenitentContrast"
-    },
-    {
-        "label": "PenitentLight"
-    },
-    {
-        "label": "Piggy"
-    },
-    {
-        "label": "PiggyContrast"
-    },
-    {
-        "label": "PiggyLight"
-    },
-    {
-        "label": "Pleasure"
-    },
-    {
-        "label": "PleasureContrast"
-    },
-    {
-        "label": "PleasureLight"
-    },
-    {
-        "label": "Potpourri"
-    },
-    {
-        "label": "PotpourriContrast"
-    },
-    {
-        "label": "PotpourriLight"
-    },
-    {
-        "label": "Prime"
-    },
-    {
-        "label": "PrimeContrast"
-    },
-    {
-        "label": "PrimeLight"
-    },
-    {
-        "label": "Pure"
-    },
-    {
-        "label": "RainAlleys"
-    },
-    {
-        "label": "Rainbow"
-    },
-    {
-        "label": "RainbowContrast"
-    },
-    {
-        "label": "RainbowLight"
-    },
-    {
-        "label": "Rebellion"
-    },
-    {
-        "label": "RebellionContrast"
-    },
-    {
-        "label": "RebellionLight"
-    },
-    {
-        "label": "Revelation"
-    },
-    {
-        "label": "RevelationContrast"
-    },
-    {
-        "label": "RevelationLight"
-    },
-    {
-        "label": "Scorch"
-    },
-    {
-        "label": "ScorchContrast"
-    },
-    {
-        "label": "ScorchLight"
-    },
-    {
-        "label": "Service"
-    },
-    {
-        "label": "ServiceContrast"
-    },
-    {
-        "label": "ServiceLight"
-    },
-    {
-        "label": "Shrek"
-    },
-    {
-        "label": "ShrekContrast"
-    },
-    {
-        "label": "ShrekLight"
-    },
-    {
-        "label": "Slate"
-    },
-    {
-        "label": "SlateContrast"
-    },
-    {
-        "label": "SlateLight"
-    },
-    {
-        "label": "Slime"
-    },
-    {
-        "label": "SlimeContrast"
-    },
-    {
-        "label": "SlimeLight"
-    },
-    {
-        "label": "Snappy"
-    },
-    {
-        "label": "SnappyContrast"
-    },
-    {
-        "label": "SnappyLight"
-    },
-    {
-        "label": "Solarflare"
-    },
-    {
-        "label": "SolarflareContrast"
-    },
-    {
-        "label": "SolarflareLight"
-    },
-    {
-        "label": "Soup"
-    },
-    {
-        "label": "SoupContrast"
-    },
-    {
-        "label": "SoupLight"
-    },
-    {
-        "label": "Sourlick"
-    },
-    {
-        "label": "SourlickContrast"
-    },
-    {
-        "label": "SourlickLight"
-    },
-    {
-        "label": "Spearmint"
-    },
-    {
-        "label": "SpearmintContrast"
-    },
-    {
-        "label": "SpearmintLight"
-    },
-    {
-        "label": "Spitfire"
-    },
-    {
-        "label": "SpitfireContrast"
-    },
-    {
-        "label": "SpitfireLight"
-    },
-    {
-        "label": "Stark"
-    },
-    {
-        "label": "StarkContrast"
-    },
-    {
-        "label": "StarkLight"
-    },
-    {
-        "label": "Stasis"
-    },
-    {
-        "label": "StasisContrast"
-    },
-    {
-        "label": "StasisLight"
-    },
-    {
-        "label": "Stealth"
-    },
-    {
-        "label": "StealthContrast"
-    },
-    {
-        "label": "StealthLight"
-    },
-    {
-        "label": "Storm"
-    },
-    {
-        "label": "StormContrast"
-    },
-    {
-        "label": "StormLight"
-    },
-    {
-        "label": "Super"
-    },
-    {
-        "label": "SuperContrast"
-    },
-    {
-        "label": "SuperLight"
-    },
-    {
-        "label": "Tame"
-    },
-    {
-        "label": "TameContrast"
-    },
-    {
-        "label": "TameLight"
-    },
-    {
-        "label": "Tetra"
-    },
-    {
-        "label": "TetraContrast"
-    },
-    {
-        "label": "TetraLight"
-    },
-    {
-        "label": "Tickle"
-    },
-    {
-        "label": "TickleContrast"
-    },
-    {
-        "label": "TickleLight"
-    },
-    {
-        "label": "Tonic"
-    },
-    {
-        "label": "TonicContrast"
-    },
-    {
-        "label": "TonicLight"
-    },
-    {
-        "label": "Tribal"
-    },
-    {
-        "label": "TribalContrast"
-    },
-    {
-        "label": "TribalLight"
-    },
-    {
-        "label": "Tron"
-    },
-    {
-        "label": "TronContrast"
-    },
-    {
-        "label": "TronLight"
-    },
-    {
-        "label": "Turnip"
-    },
-    {
-        "label": "TurnipContrast"
-    },
-    {
-        "label": "TurnipLight"
-    },
-    {
-        "label": "Tweed"
-    },
-    {
-        "label": "TweedContrast"
-    },
-    {
-        "label": "TweedLight"
-    },
-    {
-        "label": "Userscape"
-    },
-    {
-        "label": "UserscapeContrast"
-    },
-    {
-        "label": "UserscapeLight"
-    },
-    {
-        "label": "Vegetable"
-    },
-    {
-        "label": "VegetableContrast"
-    },
-    {
-        "label": "VegetableLight"
-    },
-    {
-        "label": "Violaceous"
-    },
-    {
-        "label": "ViolaceousContrast"
-    },
-    {
-        "label": "ViolaceousLight"
-    },
-    {
-        "label": "VisionColorblind"
-    },
-    {
-        "label": "VisionLightColorblind"
-    },
-    {
-        "label": "Volatile"
-    },
-    {
-        "label": "VolatileContrast"
-    },
-    {
-        "label": "VolatileLight"
-    },
-    {
-        "label": "Warlock"
-    },
-    {
-        "label": "WarlockContrast"
-    },
-    {
-        "label": "WarlockLight"
-    },
-    {
-        "label": "Waste"
-    },
-    {
-        "label": "WasteContrast"
-    },
-    {
-        "label": "WasteLight"
-    },
-    {
-        "label": "Yitzchok"
-    },
-    {
-        "label": "YitzchokContrast"
-    },
-    {
-        "label": "YitzchokLight"
-    },
-    {
-        "label": "Yule"
-    },
-    {
-        "label": "YuleContrast"
-    },
-    {
-        "label": "YuleLight"
-    },
-    {
-        "label": "Zacks"
-    },
-    {
-        "label": "ZacksContrast"
-    },
-    {
-        "label": "ZacksLight"
-    }
+    "Absent",
+    "AbsentContrast",
+    "AbsentLight",
+    "Allure",
+    "AllureContrast",
+    "AllureLight",
+    "Arstotzka",
+    "ArstotzkaContrast",
+    "ArstotzkaLight",
+    "Azure",
+    "AzureContrast",
+    "AzureLight",
+    "Banner",
+    "BannerContrast",
+    "BannerLight",
+    "Blink",
+    "BlinkContrast",
+    "BlinkLight",
+    "Bold",
+    "BoldContrast",
+    "BoldLight",
+    "Boxuk",
+    "BoxukContrast",
+    "BoxukLight",
+    "Brave",
+    "BraveContrast",
+    "BraveLight",
+    "Carbonight",
+    "CarbonightContrast",
+    "CarbonightLight",
+    "Chocolate",
+    "ChocolateContrast",
+    "ChocolateLight",
+    "Codecourse",
+    "CodecourseContrast",
+    "CodecourseLight",
+    "Coffee",
+    "CoffeeContrast",
+    "CoffeeLight",
+    "Comrade",
+    "ComradeContrast",
+    "ComradeLight",
+    "Crackpot",
+    "CrackpotContrast",
+    "CrackpotLight",
+    "Crisp",
+    "CrispContrast",
+    "CrispLight",
+    "Dare",
+    "DareContrast",
+    "DareLight",
+    "Darkside",
+    "DarksideContrast",
+    "DarksideLight",
+    "DigitPanic",
+    "Downpour",
+    "DownpourContrast",
+    "DownpourLight",
+    "Dusk",
+    "Earthsong",
+    "EarthsongContrast",
+    "EarthsongLight",
+    "Fodder",
+    "FodderContrast",
+    "FodderLight",
+    "Frantic",
+    "FranticContrast",
+    "FranticLight",
+    "Freshcut",
+    "FreshcutContrast",
+    "FreshcutLight",
+    "Friction",
+    "FrictionContrast",
+    "FrictionLight",
+    "Frontier",
+    "FrontierContrast",
+    "FrontierLight",
+    "GirlWithKitten",
+    "Github",
+    "GithubContrast",
+    "GithubLight",
+    "Glance",
+    "GlanceContrast",
+    "GlanceLight",
+    "Gloom",
+    "GloomContrast",
+    "GloomLight",
+    "Glowfish",
+    "GlowfishContrast",
+    "GlowfishLight",
+    "Goldfish",
+    "GoldfishContrast",
+    "GoldfishLight",
+    "Grunge",
+    "GrungeContrast",
+    "GrungeLight",
+    "Halflife",
+    "HalflifeContrast",
+    "HalflifeLight",
+    "Hawaii",
+    "HawaiiContrast",
+    "HawaiiLight",
+    "Heroku",
+    "HerokuContrast",
+    "HerokuLight",
+    "Hive",
+    "HiveContrast",
+    "HiveLight",
+    "Horizon",
+    "HorizonContrast",
+    "HorizonLight",
+    "Hub",
+    "HubContrast",
+    "HubLight",
+    "Hyrule",
+    "HyruleContrast",
+    "HyruleLight",
+    "Iceberg",
+    "IcebergContrast",
+    "IcebergLight",
+    "Isotope",
+    "IsotopeContrast",
+    "IsotopeLight",
+    "Jewel",
+    "JewelContrast",
+    "JewelLight",
+    "Jingle",
+    "JingleContrast",
+    "JingleLight",
+    "Joker",
+    "JokerContrast",
+    "JokerLight",
+    "Juicy",
+    "JuicyContrast",
+    "JuicyLight",
+    "Jumper",
+    "JumperContrast",
+    "JumperLight",
+    "Keen",
+    "KeenContrast",
+    "KeenLight",
+    "Kiwi",
+    "KiwiContrast",
+    "KiwiLight",
+    "Laracasts",
+    "LaracastsContrast",
+    "LaracastsLight",
+    "Laravel",
+    "LaravelContrast",
+    "LaravelLight",
+    "Lavender",
+    "LavenderContrast",
+    "LavenderLight",
+    "Legacy",
+    "LegacyContrast",
+    "LegacyLight",
+    "Lichen",
+    "LichenContrast",
+    "LichenLight",
+    "Loyal",
+    "LoyalContrast",
+    "LoyalLight",
+    "Mauve",
+    "MauveContrast",
+    "MauveLight",
+    "Mellow",
+    "MellowContrast",
+    "MellowLight",
+    "Miami",
+    "Midnight",
+    "Mintchoc",
+    "MintchocContrast",
+    "MintchocLight",
+    "Monzo",
+    "MonzoContrast",
+    "MonzoLight",
+    "Morass",
+    "MorassContrast",
+    "MorassLight",
+    "Mud",
+    "MudContrast",
+    "MudLight",
+    "Nazar",
+    "NeonDreams",
+    "Newton",
+    "NewtonContrast",
+    "NewtonLight",
+    "NightVision",
+    "Otakon",
+    "OtakonContrast",
+    "OtakonLight",
+    "Overflow",
+    "OverflowContrast",
+    "OverflowLight",
+    "Pastel",
+    "PastelContrast",
+    "PastelLight",
+    "Patriot",
+    "PatriotContrast",
+    "PatriotLight",
+    "Peacock",
+    "PeacockContrast",
+    "PeacockLight",
+    "PeacocksInSpace",
+    "PeacocksInSpaceContrast",
+    "PeacocksInSpaceLight",
+    "Peel",
+    "PeelContrast",
+    "PeelLight",
+    "Penitent",
+    "PenitentContrast",
+    "PenitentLight",
+    "Piggy",
+    "PiggyContrast",
+    "PiggyLight",
+    "Pleasure",
+    "PleasureContrast",
+    "PleasureLight",
+    "Potpourri",
+    "PotpourriContrast",
+    "PotpourriLight",
+    "Prime",
+    "PrimeContrast",
+    "PrimeLight",
+    "Pure",
+    "RainAlleys",
+    "Rainbow",
+    "RainbowContrast",
+    "RainbowLight",
+    "Rebellion",
+    "RebellionContrast",
+    "RebellionLight",
+    "Revelation",
+    "RevelationContrast",
+    "RevelationLight",
+    "Scorch",
+    "ScorchContrast",
+    "ScorchLight",
+    "Service",
+    "ServiceContrast",
+    "ServiceLight",
+    "Shrek",
+    "ShrekContrast",
+    "ShrekLight",
+    "Slate",
+    "SlateContrast",
+    "SlateLight",
+    "Slime",
+    "SlimeContrast",
+    "SlimeLight",
+    "Snappy",
+    "SnappyContrast",
+    "SnappyLight",
+    "Solarflare",
+    "SolarflareContrast",
+    "SolarflareLight",
+    "Soup",
+    "SoupContrast",
+    "SoupLight",
+    "Sourlick",
+    "SourlickContrast",
+    "SourlickLight",
+    "Spearmint",
+    "SpearmintContrast",
+    "SpearmintLight",
+    "Spitfire",
+    "SpitfireContrast",
+    "SpitfireLight",
+    "Stark",
+    "StarkContrast",
+    "StarkLight",
+    "Stasis",
+    "StasisContrast",
+    "StasisLight",
+    "Stealth",
+    "StealthContrast",
+    "StealthLight",
+    "Storm",
+    "StormContrast",
+    "StormLight",
+    "Super",
+    "SuperContrast",
+    "SuperLight",
+    "Tame",
+    "TameContrast",
+    "TameLight",
+    "Tetra",
+    "TetraContrast",
+    "TetraLight",
+    "Tickle",
+    "TickleContrast",
+    "TickleLight",
+    "Tonic",
+    "TonicContrast",
+    "TonicLight",
+    "Tribal",
+    "TribalContrast",
+    "TribalLight",
+    "Tron",
+    "TronContrast",
+    "TronLight",
+    "Turnip",
+    "TurnipContrast",
+    "TurnipLight",
+    "Tweed",
+    "TweedContrast",
+    "TweedLight",
+    "Userscape",
+    "UserscapeContrast",
+    "UserscapeLight",
+    "Vegetable",
+    "VegetableContrast",
+    "VegetableLight",
+    "Violaceous",
+    "ViolaceousContrast",
+    "ViolaceousLight",
+    "VisionColorblind",
+    "VisionLightColorblind",
+    "Volatile",
+    "VolatileContrast",
+    "VolatileLight",
+    "Warlock",
+    "WarlockContrast",
+    "WarlockLight",
+    "Waste",
+    "WasteContrast",
+    "WasteLight",
+    "Yitzchok",
+    "YitzchokContrast",
+    "YitzchokLight",
+    "Yule",
+    "YuleContrast",
+    "YuleLight",
+    "Zacks",
+    "ZacksContrast",
+    "ZacksLight"
 ]

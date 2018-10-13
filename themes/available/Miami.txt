@@ -1,7 +1,7 @@
 # Theme based on: http://www.packal.org/theme/miami
 [theme/Miami]
 opacity_back = 100
-satellite_show = never
+satellite_show = always
 satellite_pos = topcenter
 satellite_size = jumbo
 control_margin = 6

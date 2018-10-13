@@ -2,11 +2,13 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
+                <a href="" v-show="selectedTheme" class="previous-theme theme-nav-arrow" title="Previous theme" @click.prevent="setPreviousTheme">&#x27A9;</a>
                 <div class="keypirinha" :style="keypirinhaStyle">
                     <SearchBox/>
                     <ListItem/>
                     <StatusBar/>
                 </div>
+                <a href="" class="next-theme theme-nav-arrow" title="Next theme" @click.prevent="setNextTheme">&#x27A9;</a>
             </div>
             <div class="col-lg-12">
                 <Config/>
@@ -30,7 +32,7 @@
     import ListItem from './components/ListItem.vue'
     import StatusBar from './components/StatusBar.vue'
     import SearchBox from './components/SearchBox.vue'
-    import {mapGetters} from 'vuex'
+    import {mapActions, mapGetters} from 'vuex'
 
     export default {
         name: 'keypirinha',
@@ -54,7 +56,37 @@
                 set(themes) {
                     this.$store.commit('setThemes', themes);
                 }
-            }
+            },
+            selectedTheme: {
+                get() {
+                    return this.$store.state.selectedTheme;
+                }
+            },
+        },
+        methods: {
+            setNextTheme() {
+                let newTheme = this.searchTheme(true);
+                this.importThemeFromFile(newTheme);
+            },
+            setPreviousTheme() {
+                let newTheme = this.searchTheme(false);
+                this.importThemeFromFile(newTheme);
+            },
+            searchTheme(next) {
+                const themes = this.$store.state.themes
+
+                let index = themes.indexOf(this.$store.state.selectedTheme);
+                let nextTheme = themes[0];
+                if (index >= 0 && index < themes.length - 1) {
+                    const newIndex = next == true ? index + 1 : index - 1;
+                    nextTheme = themes[newIndex];
+                }
+
+                if (typeof nextTheme == 'undefined') nextTheme = "CustomTheme"
+
+                return nextTheme;
+            },
+            ...mapActions(['importThemeFromFile'])
         },
         mounted() {
             // Load the available themes

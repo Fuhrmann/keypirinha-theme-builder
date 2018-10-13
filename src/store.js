@@ -105,6 +105,7 @@ const initialState = {
     ],
     currentView: 'results',
     themes: [],
+    selectedTheme: null,
     theme: {
         opacity_back: 97,
         satellite_show: 'always',
@@ -143,6 +144,37 @@ const initialState = {
         listitem_title_font: 'snormal',
     }
 };
+
+function parseTheme(themeData) {
+    const lines = themeData.split('\n');
+
+    let newTheme = [];
+    let name = '';
+    for (let line of lines) {
+        // Theme name, if present
+        // [theme/ThemeName]
+        if (line.indexOf('[theme/') > -1) {
+            name = line.match(/\[([\w\d]+)\/([\w\d]+)\]/i);
+            if (typeof name[2] !== 'undefined') {
+                name = name[2];
+            }
+        }
+
+        if (line.indexOf('=') > -1) {
+            const matches = line.split('=');
+
+            const configuration = matches[0].trim();
+            let value = matches[1].trim();
+            if (value.indexOf(',') > -1) {
+                value = value.split(',').map(item => item.trim());
+            }
+
+            newTheme[configuration] = value;
+        }
+    }
+
+    return {themeData: newTheme, name};
+}
 
 export const store = new Vuex.Store({
     state: {...initialState},
@@ -443,6 +475,42 @@ export const store = new Vuex.Store({
             }
         }
     },
+    actions: {
+        /**
+         * Import a theme from the theme files.
+         *
+         * @param store
+         * @param newTheme
+         */
+        importThemeFromFile(store, newThemeName) {
+            fetch(`themes/available/${newThemeName}.txt`).then((stream) => {
+                return stream.text()
+            }).then((data) => {
+                const newTheme = parseTheme(data)
+
+                store.commit('resetTheme');
+                store.commit('setThemeName', newThemeName);
+                store.commit('setSelectedTheme', newTheme.name);
+                store.commit('bulkUpdateTheme', newTheme.themeData);
+            })
+        },
+        /**
+         * Import a theme from the modal.
+         *
+         * @param store
+         * @param themeData
+         */
+        importFromUser(store, themeData) {
+            const newTheme = parseTheme(themeData)
+
+            if (typeof newTheme.name !== 'undefined') {
+                store.commit('setThemeName', newTheme.name);
+            }
+
+            store.commit('resetTheme');
+            store.commit('bulkUpdateTheme', newTheme.themeData);
+        }
+    },
     mutations: {
         /**
          * Bulk update the theme.
@@ -453,29 +521,40 @@ export const store = new Vuex.Store({
                 ...theme
             }
         },
+
         /**
          * Update the current view.
          */
         setCurrentView(state, view) {
             state.currentView = view;
         },
+
         /**
          * Update the theme name.
          */
         setThemeName(state, name) {
             state.themeName = name;
         },
+
+        /**
+         * Update the selected (from file) theme name.
+         */
+        setSelectedTheme(state, name) {
+            state.selectedTheme = name;
+        },
+
         /**
          * Reset the theme to its initial state.
          */
         resetTheme(state) {
             state.theme = initialState.theme;
         },
+
         /**
          * Set the available themes to be used as base.
          */
         setThemes(state, themes) {
             state.themes = themes;
-        }
+        },
     }
 });

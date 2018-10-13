@@ -1,6 +1,6 @@
 [theme/RainAlleys]
 opacity_back = 100
-satellite_show = never
+satellite_show = always
 satellite_pos = topleft
 satellite_size = jumbo
 control_margin = 6

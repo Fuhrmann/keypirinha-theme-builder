@@ -6,6 +6,23 @@ body {
   font-size: 100%;
 }
 
+.theme-nav-arrow {
+  font-size: 55px;
+  color: #000;
+  position: absolute;
+  top: 50%;
+  text-decoration: none !important;
+
+  &.previous-theme {
+    left: 0;
+    transform: rotate(180deg);
+  }
+
+  &.next-theme {
+    right: 0;
+  }
+}
+
 .keypirinha {
   width: 635px;
   margin: 155px auto 0 auto;
