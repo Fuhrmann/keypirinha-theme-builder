@@ -3,6 +3,8 @@
 [theme/SlateContrast]
 color_background = #19191f
 color_foreground = #ebebf4
+color_title = #ebebf4
+color_title = #ebebf4
 color_textbox_back = #19191f
 color_faded = #ebebf4
 color_accent = #566981

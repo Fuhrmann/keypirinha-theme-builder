@@ -3,6 +3,7 @@
 [theme/Mud]
 color_background = #403635
 color_foreground = #ffffff
+color_title = #ffffff
 color_textbox_back = #403635
 color_faded = #ffffff
 color_accent = #b5db99

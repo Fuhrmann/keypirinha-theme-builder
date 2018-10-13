@@ -3,6 +3,7 @@
 [theme/FrontierContrast]
 color_background = #110f0e
 color_foreground = #f8f8f2
+color_title = #f8f8f2
 color_textbox_back = #110f0e
 color_faded = #f8f8f2
 color_accent = #2ebf7e

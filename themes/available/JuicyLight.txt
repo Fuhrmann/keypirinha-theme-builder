@@ -3,6 +3,7 @@
 [theme/JuicyLight]
 color_background = #f0f0f0
 color_foreground = #333333
+color_title = #333333
 color_textbox_back = #f0f0f0
 color_faded = #333333
 color_accent = #ff4e50

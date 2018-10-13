@@ -3,6 +3,7 @@
 [theme/HalflifeLight]
 color_background = #f0f0f0
 color_foreground = #222222
+color_title = #222222
 color_textbox_back = #f0f0f0
 color_faded = #222222
 color_accent = #f85931

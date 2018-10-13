@@ -3,6 +3,7 @@
 [theme/Peel]
 color_background = #23201c
 color_foreground = #edebe6
+color_title = #edebe6
 color_textbox_back = #23201c
 color_faded = #edebe6
 color_accent = #d3643b

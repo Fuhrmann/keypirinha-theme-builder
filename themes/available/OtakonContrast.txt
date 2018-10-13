@@ -3,6 +3,7 @@
 [theme/OtakonContrast]
 color_background = #171417
 color_foreground = #f9f3f9
+color_title = #f9f3f9
 color_textbox_back = #171417
 color_faded = #f9f3f9
 color_accent = #b1a6ca

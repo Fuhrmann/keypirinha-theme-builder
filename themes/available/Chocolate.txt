@@ -3,6 +3,7 @@
 [theme/Chocolate]
 color_background = #261b0e
 color_foreground = #ffffff
+color_title = #ffffff
 color_textbox_back = #261b0e
 color_faded = #ffffff
 color_accent = #8b6e46

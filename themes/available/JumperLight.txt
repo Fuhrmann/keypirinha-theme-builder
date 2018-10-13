@@ -3,6 +3,7 @@
 [theme/JumperLight]
 color_background = #ffffff
 color_foreground = #222a2a
+color_title = #222a2a
 color_textbox_back = #ffffff
 color_faded = #222a2a
 color_accent = #36a595

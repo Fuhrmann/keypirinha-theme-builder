@@ -3,6 +3,7 @@
 [theme/Downpour]
 color_background = #2c323d
 color_foreground = #d6dbdb
+color_title = #d6dbdb
 color_textbox_back = #2c323d
 color_faded = #d6dbdb
 color_accent = #908bbc

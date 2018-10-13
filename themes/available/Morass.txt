@@ -3,6 +3,7 @@
 [theme/Morass]
 color_background = #313a36
 color_foreground = #e4e3e1
+color_title = #e4e3e1
 color_textbox_back = #313a36
 color_faded = #e4e3e1
 color_accent = #fdec5a

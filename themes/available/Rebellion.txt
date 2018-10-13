@@ -3,6 +3,7 @@
 [theme/Rebellion]
 color_background = #23231a
 color_foreground = #d6c7ab
+color_title = #d6c7ab
 color_textbox_back = #23231a
 color_faded = #d6c7ab
 color_accent = #fe5f00

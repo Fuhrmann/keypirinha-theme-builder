@@ -3,6 +3,7 @@
 [theme/GlowfishLight]
 color_background = #e3eadc
 color_foreground = #191f13
+color_title = #191f13
 color_textbox_back = #e3eadc
 color_faded = #191f13
 color_accent = #db784d

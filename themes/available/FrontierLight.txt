@@ -3,6 +3,7 @@
 [theme/FrontierLight]
 color_background = #ffffff
 color_foreground = #36312c
+color_title = #36312c
 color_textbox_back = #ffffff
 color_faded = #36312c
 color_accent = #1a724a

@@ -3,6 +3,7 @@
 [theme/LavenderContrast]
 color_background = #080709
 color_foreground = #e0ceed
+color_title = #e0ceed
 color_textbox_back = #080709
 color_faded = #e0ceed
 color_accent = #b657ff

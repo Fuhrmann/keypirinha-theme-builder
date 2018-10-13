@@ -3,6 +3,7 @@
 [theme/Friction]
 color_background = #26252d
 color_foreground = #7e7b99
+color_title = #7e7b99
 color_textbox_back = #26252d
 color_faded = #7e7b99
 color_accent = #6aa7a7

@@ -3,6 +3,7 @@
 [theme/Comrade]
 color_background = #343939
 color_foreground = #d6dbdb
+color_title = #d6dbdb
 color_textbox_back = #343939
 color_faded = #d6dbdb
 color_accent = #9bb7a7

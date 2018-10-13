@@ -3,6 +3,7 @@
 [theme/DarksideContrast]
 color_background = #000000
 color_foreground = #bababa
+color_title = #bababa
 color_textbox_back = #000000
 color_faded = #bababa
 color_accent = #ff4e50

@@ -3,6 +3,7 @@
 [theme/Fodder]
 color_background = #2d4137
 color_foreground = #cce0d6
+color_title = #cce0d6
 color_textbox_back = #2d4137
 color_faded = #cce0d6
 color_accent = #fcfcfa

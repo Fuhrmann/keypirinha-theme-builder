@@ -3,6 +3,7 @@
 [theme/HorizonContrast]
 color_background = #11101c
 color_foreground = #edebe6
+color_title = #edebe6
 color_textbox_back = #11101c
 color_faded = #edebe6
 color_accent = #b133dc

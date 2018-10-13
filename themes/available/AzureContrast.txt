@@ -3,6 +3,7 @@
 [theme/AzureContrast]
 color_background = #040507
 color_foreground = #ffffff
+color_title = #ffffff
 color_textbox_back = #040507
 color_faded = #ffffff
 color_accent = #47959a

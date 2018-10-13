@@ -3,6 +3,7 @@
 [theme/LoyalLight]
 color_background = #ffffff
 color_foreground = #413e4f
+color_title = #413e4f
 color_textbox_back = #ffffff
 color_faded = #413e4f
 color_accent = #3cbbb1

@@ -3,6 +3,7 @@
 [theme/IsotopeLight]
 color_background = #ffffff
 color_foreground = #454955
+color_title = #454955
 color_textbox_back = #ffffff
 color_faded = #454955
 color_accent = #b3dd49

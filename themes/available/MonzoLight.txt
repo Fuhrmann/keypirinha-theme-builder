@@ -3,6 +3,7 @@
 [theme/MonzoLight]
 color_background = #ffffff
 color_foreground = #5a79a8
+color_title = #5a79a8
 color_textbox_back = #ffffff
 color_faded = #5a79a8
 color_accent = #98baa6

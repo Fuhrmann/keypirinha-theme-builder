@@ -3,6 +3,7 @@
 [theme/Carbonight]
 color_background = #2e2c2b
 color_foreground = #b0b0b0
+color_title = #b0b0b0
 color_textbox_back = #2e2c2b
 color_faded = #b0b0b0
 color_accent = #8c8c8c

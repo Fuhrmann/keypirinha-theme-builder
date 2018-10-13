@@ -3,6 +3,7 @@
 [theme/Kiwi]
 color_background = #2a3330
 color_foreground = #edebe6
+color_title = #edebe6
 color_textbox_back = #2a3330
 color_faded = #edebe6
 color_accent = #0b6d5c

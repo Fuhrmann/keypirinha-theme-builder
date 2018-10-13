@@ -3,6 +3,7 @@
 [theme/Darkside]
 color_background = #222324
 color_foreground = #bababa
+color_title = #bababa
 color_textbox_back = #222324
 color_faded = #bababa
 color_accent = #ff4e50

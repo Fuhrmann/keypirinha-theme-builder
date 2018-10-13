@@ -3,6 +3,7 @@
 [theme/LichenLight]
 color_background = #e6e9ed
 color_foreground = #414549
+color_title = #414549
 color_textbox_back = #e6e9ed
 color_faded = #414549
 color_accent = #1a9d6b

@@ -3,6 +3,7 @@
 [theme/FranticContrast]
 color_background = #0e1114
 color_foreground = #aeb9c4
+color_title = #aeb9c4
 color_textbox_back = #0e1114
 color_faded = #aeb9c4
 color_accent = #ef6462

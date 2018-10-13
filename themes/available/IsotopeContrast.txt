@@ -3,6 +3,7 @@
 [theme/IsotopeContrast]
 color_background = #0e0f11
 color_foreground = #f3eff5
+color_title = #f3eff5
 color_textbox_back = #0e0f11
 color_faded = #f3eff5
 color_accent = #b3dd49

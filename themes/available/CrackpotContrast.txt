@@ -3,6 +3,7 @@
 [theme/CrackpotContrast]
 color_background = #181726
 color_foreground = #d2c9ef
+color_title = #d2c9ef
 color_textbox_back = #181726
 color_faded = #d2c9ef
 color_accent = #ef6461

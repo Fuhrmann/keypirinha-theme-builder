@@ -3,6 +3,7 @@
 [theme/ScorchLight]
 color_background = #f2eded
 color_foreground = #514242
+color_title = #514242
 color_textbox_back = #f2eded
 color_faded = #514242
 color_accent = #bd4549

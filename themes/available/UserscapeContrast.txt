@@ -3,6 +3,7 @@
 [theme/UserscapeContrast]
 color_background = #15181c
 color_foreground = #dce2e8
+color_title = #dce2e8
 color_textbox_back = #15181c
 color_faded = #dce2e8
 color_accent = #355b8c

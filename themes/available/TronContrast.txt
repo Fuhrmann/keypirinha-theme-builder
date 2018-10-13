@@ -3,6 +3,7 @@
 [theme/TronContrast]
 color_background = #07090b
 color_foreground = #aec2e0
+color_title = #aec2e0
 color_textbox_back = #07090b
 color_faded = #aec2e0
 color_accent = #7a9bc2

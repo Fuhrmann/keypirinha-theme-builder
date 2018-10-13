@@ -3,6 +3,7 @@
 [theme/Tribal]
 color_background = #393942
 color_foreground = #ffffff
+color_title = #ffffff
 color_textbox_back = #393942
 color_faded = #ffffff
 color_accent = #47959a

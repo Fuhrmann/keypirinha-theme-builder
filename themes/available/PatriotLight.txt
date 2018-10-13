@@ -3,6 +3,7 @@
 [theme/PatriotLight]
 color_background = #ffffff
 color_foreground = #333333
+color_title = #333333
 color_textbox_back = #ffffff
 color_faded = #333333
 color_accent = #de333c

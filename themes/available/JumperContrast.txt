@@ -3,6 +3,7 @@
 [theme/JumperContrast]
 color_background = #0e1111
 color_foreground = #8da0a0
+color_title = #8da0a0
 color_textbox_back = #0e1111
 color_faded = #8da0a0
 color_accent = #36a595

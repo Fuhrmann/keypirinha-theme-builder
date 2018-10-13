@@ -3,6 +3,7 @@
 [theme/UserscapeLight]
 color_background = #f5f8fc
 color_foreground = #879bb0
+color_title = #879bb0
 color_textbox_back = #f5f8fc
 color_faded = #879bb0
 color_accent = #355b8c

@@ -3,6 +3,7 @@
 [theme/Vegetable]
 color_background = #2d2627
 color_foreground = #e2dcdd
+color_title = #e2dcdd
 color_textbox_back = #2d2627
 color_faded = #e2dcdd
 color_accent = #689d81

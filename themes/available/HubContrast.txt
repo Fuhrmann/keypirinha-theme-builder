@@ -3,6 +3,7 @@
 [theme/HubContrast]
 color_background = #191d21
 color_foreground = #ffffff
+color_title = #ffffff
 color_textbox_back = #191d21
 color_faded = #ffffff
 color_accent = #077cf9

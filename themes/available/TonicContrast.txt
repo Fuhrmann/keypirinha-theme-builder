@@ -3,6 +3,7 @@
 [theme/TonicContrast]
 color_background = #111314
 color_foreground = #eeeeee
+color_title = #eeeeee
 color_textbox_back = #111314
 color_faded = #eeeeee
 color_accent = #75a1a4

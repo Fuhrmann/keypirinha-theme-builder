@@ -3,6 +3,7 @@
 [theme/YitzchokContrast]
 color_background = #101316
 color_foreground = #afb7bf
+color_title = #afb7bf
 color_textbox_back = #101316
 color_faded = #afb7bf
 color_accent = #e7be45

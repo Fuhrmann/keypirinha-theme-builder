@@ -3,6 +3,7 @@
 [theme/Patriot]
 color_background = #2d3133
 color_foreground = #cad9e3
+color_title = #cad9e3
 color_textbox_back = #2d3133
 color_faded = #cad9e3
 color_accent = #de333c

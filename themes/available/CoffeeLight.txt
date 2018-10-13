@@ -3,6 +3,7 @@
 [theme/CoffeeLight]
 color_background = #f4f2f2
 color_foreground = #282122
+color_title = #282122
 color_textbox_back = #f4f2f2
 color_faded = #282122
 color_accent = #0a9f9b

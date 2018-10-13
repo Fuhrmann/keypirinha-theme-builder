@@ -3,6 +3,7 @@
 [theme/Solarflare]
 color_background = #222222
 color_foreground = #e3e2e0
+color_title = #e3e2e0
 color_textbox_back = #222222
 color_faded = #e3e2e0
 color_accent = #ff4e50

@@ -3,6 +3,7 @@
 [theme/PeacocksInSpaceContrast]
 color_background = #121419
 color_foreground = #dee3ec
+color_title = #dee3ec
 color_textbox_back = #121419
 color_faded = #dee3ec
 color_accent = #26a6a6

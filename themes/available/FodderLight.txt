@@ -3,6 +3,7 @@
 [theme/FodderLight]
 color_background = #cce0d6
 color_foreground = #2d4137
+color_title = #2d4137
 color_textbox_back = #cce0d6
 color_faded = #2d4137
 color_accent = #688e2f

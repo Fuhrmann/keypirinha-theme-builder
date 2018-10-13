@@ -3,6 +3,7 @@
 [theme/Slime]
 color_background = #292d30
 color_foreground = #ffffff
+color_title = #ffffff
 color_textbox_back = #292d30
 color_faded = #ffffff
 color_accent = #c7af3f

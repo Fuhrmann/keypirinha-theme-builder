@@ -3,6 +3,7 @@
 [theme/TonicLight]
 color_background = #eeeeee
 color_foreground = #2a2f31
+color_title = #2a2f31
 color_textbox_back = #eeeeee
 color_faded = #2a2f31
 color_accent = #ef6e44

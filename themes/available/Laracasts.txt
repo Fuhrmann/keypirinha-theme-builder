@@ -3,6 +3,7 @@
 [theme/Laracasts]
 color_background = #4d545d
 color_foreground = #c0ccdb
+color_title = #c0ccdb
 color_textbox_back = #4d545d
 color_faded = #c0ccdb
 color_accent = #00b1b3

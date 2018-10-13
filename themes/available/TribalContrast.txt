@@ -3,6 +3,7 @@
 [theme/TribalContrast]
 color_background = #19191d
 color_foreground = #ffffff
+color_title = #ffffff
 color_textbox_back = #19191d
 color_faded = #ffffff
 color_accent = #47959a

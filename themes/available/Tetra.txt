@@ -3,6 +3,7 @@
 [theme/Tetra]
 color_background = #13363f
 color_foreground = #c9d7db
+color_title = #c9d7db
 color_textbox_back = #13363f
 color_faded = #c9d7db
 color_accent = #148b97

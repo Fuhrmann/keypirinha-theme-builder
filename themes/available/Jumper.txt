@@ -3,6 +3,7 @@
 [theme/Jumper]
 color_background = #222a2a
 color_foreground = #8da0a0
+color_title = #8da0a0
 color_textbox_back = #222a2a
 color_faded = #8da0a0
 color_accent = #36a595

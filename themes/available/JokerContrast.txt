@@ -3,6 +3,7 @@
 [theme/JokerContrast]
 color_background = #141619
 color_foreground = #c0ccdb
+color_title = #c0ccdb
 color_textbox_back = #141619
 color_faded = #c0ccdb
 color_accent = #00b27d

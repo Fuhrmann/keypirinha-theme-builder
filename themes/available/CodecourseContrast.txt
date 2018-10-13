@@ -3,6 +3,7 @@
 [theme/CodecourseContrast]
 color_background = #05080a
 color_foreground = #b6ced8
+color_title = #b6ced8
 color_textbox_back = #05080a
 color_faded = #b6ced8
 color_accent = #1ea8fc

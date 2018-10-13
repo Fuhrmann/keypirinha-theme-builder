@@ -3,6 +3,7 @@
 [theme/PenitentLight]
 color_background = #ffffff
 color_foreground = #33564b
+color_title = #33564b
 color_textbox_back = #ffffff
 color_faded = #33564b
 color_accent = #e54334

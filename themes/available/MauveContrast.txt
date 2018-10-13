@@ -3,6 +3,7 @@
 [theme/MauveContrast]
 color_background = #191119
 color_foreground = #af92b2
+color_title = #af92b2
 color_textbox_back = #191119
 color_faded = #af92b2
 color_accent = #c89933

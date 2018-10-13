@@ -3,6 +3,7 @@
 [theme/SoupLight]
 color_background = #ffffff
 color_foreground = #666a7a
+color_title = #666a7a
 color_textbox_back = #ffffff
 color_faded = #666a7a
 color_accent = #68b0ab

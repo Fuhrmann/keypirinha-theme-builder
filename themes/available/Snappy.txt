@@ -3,6 +3,7 @@
 [theme/Snappy]
 color_background = #393939
 color_foreground = #e3e2e0
+color_title = #e3e2e0
 color_textbox_back = #393939
 color_faded = #e3e2e0
 color_accent = #f66153

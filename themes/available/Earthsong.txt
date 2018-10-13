@@ -3,6 +3,7 @@
 [theme/Earthsong]
 color_background = #36312c
 color_foreground = #ebd1b7
+color_title = #ebd1b7
 color_textbox_back = #36312c
 color_faded = #ebd1b7
 color_accent = #db784d

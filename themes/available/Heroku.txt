@@ -3,6 +3,7 @@
 [theme/Heroku]
 color_background = #1b1b24
 color_foreground = #c8c7d5
+color_title = #c8c7d5
 color_textbox_back = #1b1b24
 color_faded = #c8c7d5
 color_accent = #7873ae

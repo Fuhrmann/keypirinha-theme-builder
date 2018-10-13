@@ -3,6 +3,7 @@
 [theme/Newton]
 color_background = #342e37
 color_foreground = #eaebff
+color_title = #eaebff
 color_textbox_back = #342e37
 color_faded = #eaebff
 color_accent = #ff5d38

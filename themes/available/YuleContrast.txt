@@ -3,6 +3,7 @@
 [theme/YuleContrast]
 color_background = #0c0c0b
 color_foreground = #ede0ce
+color_title = #ede0ce
 color_textbox_back = #0c0c0b
 color_faded = #ede0ce
 color_accent = #d63131

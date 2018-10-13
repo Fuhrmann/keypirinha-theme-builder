@@ -3,6 +3,7 @@
 [theme/SpearmintContrast]
 color_background = #1a2322
 color_foreground = #c9dbd9
+color_title = #c9dbd9
 color_textbox_back = #1a2322
 color_faded = #c9dbd9
 color_accent = #25808a

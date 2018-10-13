@@ -3,6 +3,7 @@
 [theme/Service]
 color_background = #252727
 color_foreground = #e8e1de
+color_title = #e8e1de
 color_textbox_back = #252727
 color_faded = #e8e1de
 color_accent = #a2d66b

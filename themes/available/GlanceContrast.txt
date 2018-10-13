@@ -3,6 +3,7 @@
 [theme/GlanceContrast]
 color_background = #111219
 color_foreground = #ffffff
+color_title = #ffffff
 color_textbox_back = #111219
 color_faded = #ffffff
 color_accent = #ef8354

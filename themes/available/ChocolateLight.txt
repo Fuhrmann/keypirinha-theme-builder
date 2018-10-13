@@ -3,6 +3,7 @@
 [theme/ChocolateLight]
 color_background = #ffffff
 color_foreground = #150f08
+color_title = #150f08
 color_textbox_back = #ffffff
 color_faded = #150f08
 color_accent = #8b6e46

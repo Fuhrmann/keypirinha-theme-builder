@@ -3,6 +3,7 @@
 [theme/Violaceous]
 color_background = #242038
 color_foreground = #bdb2f7
+color_title = #bdb2f7
 color_textbox_back = #242038
 color_faded = #bdb2f7
 color_accent = #725ac1

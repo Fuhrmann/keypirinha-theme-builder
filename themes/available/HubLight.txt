@@ -3,6 +3,7 @@
 [theme/HubLight]
 color_background = #ffffff
 color_foreground = #24292e
+color_title = #24292e
 color_textbox_back = #ffffff
 color_faded = #24292e
 color_accent = #077cf9

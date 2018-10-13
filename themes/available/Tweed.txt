@@ -3,6 +3,7 @@
 [theme/Tweed]
 color_background = #3b3f4c
 color_foreground = #ffffff
+color_title = #ffffff
 color_textbox_back = #3b3f4c
 color_faded = #ffffff
 color_accent = #d3643b

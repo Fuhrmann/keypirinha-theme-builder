@@ -3,6 +3,7 @@
 [theme/PenitentContrast]
 color_background = #101c18
 color_foreground = #b9cec7
+color_title = #b9cec7
 color_textbox_back = #101c18
 color_faded = #b9cec7
 color_accent = #e54334

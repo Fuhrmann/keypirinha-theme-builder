@@ -3,6 +3,7 @@
 [theme/Mintchoc]
 color_background = #2b221c
 color_foreground = #bababa
+color_title = #bababa
 color_textbox_back = #2b221c
 color_faded = #bababa
 color_accent = #008d62

@@ -3,6 +3,7 @@
 [theme/BraveLight]
 color_background = #f7f9f9
 color_foreground = #2c2d2d
+color_title = #2c2d2d
 color_textbox_back = #f7f9f9
 color_faded = #2c2d2d
 color_accent = #908bbc

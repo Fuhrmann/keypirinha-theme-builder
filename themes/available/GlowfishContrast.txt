@@ -3,6 +3,7 @@
 [theme/GlowfishContrast]
 color_background = #090b07
 color_foreground = #6ea240
+color_title = #6ea240
 color_textbox_back = #090b07
 color_faded = #6ea240
 color_accent = #db784d

@@ -3,6 +3,7 @@
 [theme/PeacockContrast]
 color_background = #0c0c0b
 color_foreground = #ffffff
+color_title = #ffffff
 color_textbox_back = #0c0c0b
 color_faded = #ffffff
 color_accent = #ff5d38

@@ -3,6 +3,7 @@
 [theme/ServiceLight]
 color_background = #ffffff
 color_foreground = #4d5151
+color_title = #4d5151
 color_textbox_back = #ffffff
 color_faded = #4d5151
 color_accent = #a2d66b

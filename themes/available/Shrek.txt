@@ -3,6 +3,7 @@
 [theme/Shrek]
 color_background = #222222
 color_foreground = #ffffff
+color_title = #ffffff
 color_textbox_back = #222222
 color_faded = #ffffff
 color_accent = #857a5e

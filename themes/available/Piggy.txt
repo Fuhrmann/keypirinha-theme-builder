@@ -3,6 +3,7 @@
 [theme/Piggy]
 color_background = #3d2f34
 color_foreground = #edebe6
+color_title = #edebe6
 color_textbox_back = #3d2f34
 color_faded = #edebe6
 color_accent = #f52e62

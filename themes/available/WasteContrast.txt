@@ -3,6 +3,7 @@
 [theme/WasteContrast]
 color_background = #081011
 color_foreground = #b1c7cc
+color_title = #b1c7cc
 color_textbox_back = #081011
 color_faded = #b1c7cc
 color_accent = #43bdb2

@@ -3,6 +3,7 @@
 [theme/MellowContrast]
 color_background = #0b0a09
 color_foreground = #f8f8f2
+color_title = #f8f8f2
 color_textbox_back = #0b0a09
 color_faded = #f8f8f2
 color_accent = #f55d79

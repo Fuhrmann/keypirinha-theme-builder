@@ -3,6 +3,7 @@
 [theme/PrimeLight]
 color_background = #ffffff
 color_foreground = #3d3d5b
+color_title = #3d3d5b
 color_textbox_back = #ffffff
 color_faded = #3d3d5b
 color_accent = #ee4266

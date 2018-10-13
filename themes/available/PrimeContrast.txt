@@ -3,6 +3,7 @@
 [theme/PrimeContrast]
 color_background = #0b0b11
 color_foreground = #9090b2
+color_title = #9090b2
 color_textbox_back = #0b0b11
 color_faded = #9090b2
 color_accent = #ee4266

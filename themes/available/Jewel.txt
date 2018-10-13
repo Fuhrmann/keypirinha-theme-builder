@@ -3,6 +3,7 @@
 [theme/Jewel]
 color_background = #32373d
 color_foreground = #c0ccdb
+color_title = #c0ccdb
 color_textbox_back = #32373d
 color_faded = #c0ccdb
 color_accent = #c262c4

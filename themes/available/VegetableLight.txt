@@ -3,6 +3,7 @@
 [theme/VegetableLight]
 color_background = #e2dcdd
 color_foreground = #514547
+color_title = #514547
 color_textbox_back = #e2dcdd
 color_faded = #514547
 color_accent = #689d81

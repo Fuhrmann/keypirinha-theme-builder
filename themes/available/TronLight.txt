@@ -3,6 +3,7 @@
 [theme/TronLight]
 color_background = #d7e5ed
 color_foreground = #222222
+color_title = #222222
 color_textbox_back = #d7e5ed
 color_faded = #222222
 color_accent = #267fb5

@@ -3,6 +3,7 @@
 [theme/Iceberg]
 color_background = #323b3d
 color_foreground = #bdd6db
+color_title = #bdd6db
 color_textbox_back = #323b3d
 color_faded = #bdd6db
 color_accent = #2d8da1

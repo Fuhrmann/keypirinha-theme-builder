@@ -3,6 +3,7 @@
 [theme/TweedContrast]
 color_background = #1e2026
 color_foreground = #ffffff
+color_title = #ffffff
 color_textbox_back = #1e2026
 color_faded = #ffffff
 color_accent = #d3643b

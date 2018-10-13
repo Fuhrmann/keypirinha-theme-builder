@@ -3,6 +3,7 @@
 [theme/KeenLight]
 color_background = #cccccc
 color_foreground = #111111
+color_title = #111111
 color_textbox_back = #cccccc
 color_faded = #111111
 color_accent = #8767b7

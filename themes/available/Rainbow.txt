@@ -3,6 +3,7 @@
 [theme/Rainbow]
 color_background = #373c42
 color_foreground = #c7d0d9
+color_title = #c7d0d9
 color_textbox_back = #373c42
 color_faded = #c7d0d9
 color_accent = #b3cc57

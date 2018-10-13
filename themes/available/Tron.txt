@@ -3,6 +3,7 @@
 [theme/Tron]
 color_background = #14191f
 color_foreground = #aec2e0
+color_title = #aec2e0
 color_textbox_back = #14191f
 color_faded = #aec2e0
 color_accent = #7a9bc2

@@ -3,6 +3,7 @@
 [theme/HiveContrast]
 color_background = #0f1016
 color_foreground = #ffffff
+color_title = #ffffff
 color_textbox_back = #0f1016
 color_faded = #ffffff
 color_accent = #7cb8ba

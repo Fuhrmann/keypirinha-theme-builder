@@ -3,6 +3,7 @@
 [theme/GloomContrast]
 color_background = #0f120f
 color_foreground = #d8ebe5
+color_title = #d8ebe5
 color_textbox_back = #0f120f
 color_faded = #d8ebe5
 color_accent = #ff5d38

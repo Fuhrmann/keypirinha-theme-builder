@@ -3,6 +3,7 @@
 [theme/PleasureLight]
 color_background = #ffffff
 color_foreground = #474e56
+color_title = #474e56
 color_textbox_back = #ffffff
 color_faded = #474e56
 color_accent = #a1cbc6

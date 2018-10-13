@@ -3,6 +3,7 @@
 [theme/GoldfishLight]
 color_background = #ffffff
 color_foreground = #2e3336
+color_title = #2e3336
 color_textbox_back = #ffffff
 color_faded = #2e3336
 color_accent = #f38630

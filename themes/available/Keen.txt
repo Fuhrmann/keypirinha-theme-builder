@@ -3,6 +3,7 @@
 [theme/Keen]
 color_background = #111111
 color_foreground = #cccccc
+color_title = #cccccc
 color_textbox_back = #111111
 color_faded = #cccccc
 color_accent = #8767b7

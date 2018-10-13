@@ -3,6 +3,7 @@
 [theme/MudLight]
 color_background = #ede8e8
 color_foreground = #555555
+color_title = #555555
 color_textbox_back = #ede8e8
 color_faded = #555555
 color_accent = #88ad6e

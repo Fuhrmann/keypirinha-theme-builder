@@ -3,6 +3,7 @@
 [theme/MudContrast]
 color_background = #0d0b0b
 color_foreground = #ffffff
+color_title = #ffffff
 color_textbox_back = #0d0b0b
 color_faded = #ffffff
 color_accent = #b5db99

@@ -3,6 +3,7 @@
 [theme/Stark]
 color_background = #2e2c2b
 color_foreground = #dedede
+color_title = #dedede
 color_textbox_back = #2e2c2b
 color_faded = #dedede
 color_accent = #f03113

@@ -3,6 +3,7 @@
 [theme/Tame]
 color_background = #283035
 color_foreground = #c0ccdb
+color_title = #c0ccdb
 color_textbox_back = #283035
 color_faded = #c0ccdb
 color_accent = #707ba0

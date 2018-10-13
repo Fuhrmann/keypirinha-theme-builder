@@ -3,6 +3,8 @@
 [theme/ScorchContrast]
 color_background = #160d0e
 color_foreground = #baa0a2
+color_title = #baa0a2
+color_title = #baa0a2
 color_textbox_back = #160d0e
 color_faded = #baa0a2
 color_accent = #bd4549

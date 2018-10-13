@@ -3,6 +3,7 @@
 [theme/RebellionLight]
 color_background = #ede8de
 color_foreground = #443a27
+color_title = #443a27
 color_textbox_back = #ede8de
 color_faded = #443a27
 color_accent = #fe5f00

@@ -3,6 +3,7 @@
 [theme/Pastel]
 color_background = #222222
 color_foreground = #eeeeee
+color_title = #eeeeee
 color_textbox_back = #222222
 color_faded = #eeeeee
 color_accent = #008d62

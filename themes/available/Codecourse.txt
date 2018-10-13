@@ -3,6 +3,7 @@
 [theme/Codecourse]
 color_background = #19272d
 color_foreground = #b6ced8
+color_title = #b6ced8
 color_textbox_back = #19272d
 color_faded = #b6ced8
 color_accent = #1ea8fc

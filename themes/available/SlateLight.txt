@@ -3,6 +3,7 @@
 [theme/SlateLight]
 color_background = #ffffff
 color_foreground = #19191f
+color_title = #19191f
 color_textbox_back = #ffffff
 color_faded = #19191f
 color_accent = #566981

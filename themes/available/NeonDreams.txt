@@ -10,6 +10,7 @@ listitem_padding = 6
 layout = list_selmark,list_icon,list_dialnum
 color_background = #231F1B
 color_foreground = #F96C6A
+color_title = #F96C6A
 color_textbox_back = #231F1B
 color_faded = #a2a2a2
 color_accent = #4EFB99

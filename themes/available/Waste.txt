@@ -3,6 +3,7 @@
 [theme/Waste]
 color_background = #1b353a
 color_foreground = #b1c7cc
+color_title = #b1c7cc
 color_textbox_back = #1b353a
 color_faded = #b1c7cc
 color_accent = #43bdb2

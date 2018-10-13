@@ -3,6 +3,7 @@
 [theme/TetraContrast]
 color_background = #050f11
 color_foreground = #c9d7db
+color_title = #c9d7db
 color_textbox_back = #050f11
 color_faded = #c9d7db
 color_accent = #148b97

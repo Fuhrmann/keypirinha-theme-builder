@@ -3,6 +3,7 @@
 [theme/Hub]
 color_background = #3b444c
 color_foreground = #ffffff
+color_title = #ffffff
 color_textbox_back = #3b444c
 color_faded = #ffffff
 color_accent = #077cf9

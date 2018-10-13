@@ -3,6 +3,7 @@
 [theme/CrispContrast]
 color_background = #0c090c
 color_foreground = #ffffff
+color_title = #ffffff
 color_textbox_back = #0c090c
 color_faded = #ffffff
 color_accent = #fc6a0f

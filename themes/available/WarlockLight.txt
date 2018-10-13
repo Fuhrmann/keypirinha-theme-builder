@@ -3,6 +3,7 @@
 [theme/WarlockLight]
 color_background = #ffffff
 color_foreground = #4b4060
+color_title = #4b4060
 color_textbox_back = #ffffff
 color_faded = #4b4060
 color_accent = #725ac1

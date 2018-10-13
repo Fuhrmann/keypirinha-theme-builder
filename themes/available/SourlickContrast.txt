@@ -3,6 +3,7 @@
 [theme/SourlickContrast]
 color_background = #060606
 color_foreground = #dedede
+color_title = #dedede
 color_textbox_back = #060606
 color_faded = #dedede
 color_accent = #518f0d

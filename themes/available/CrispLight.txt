@@ -3,6 +3,7 @@
 [theme/CrispLight]
 color_background = #ffffff
 color_foreground = #221a22
+color_title = #221a22
 color_textbox_back = #ffffff
 color_faded = #221a22
 color_accent = #fc6a0f

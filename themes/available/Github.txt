@@ -3,6 +3,7 @@
 [theme/Github]
 color_background = #333333
 color_foreground = #ffffff
+color_title = #ffffff
 color_textbox_back = #333333
 color_faded = #ffffff
 color_accent = #008080

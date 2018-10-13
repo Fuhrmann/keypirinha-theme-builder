@@ -3,6 +3,7 @@
 [theme/Hyrule]
 color_background = #2d2c2b
 color_foreground = #c0d5c1
+color_title = #c0d5c1
 color_textbox_back = #2d2c2b
 color_faded = #c0d5c1
 color_accent = #569e16

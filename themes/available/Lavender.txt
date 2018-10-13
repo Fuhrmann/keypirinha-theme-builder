@@ -3,6 +3,7 @@
 [theme/Lavender]
 color_background = #29222e
 color_foreground = #e0ceed
+color_title = #e0ceed
 color_textbox_back = #29222e
 color_faded = #e0ceed
 color_accent = #b657ff

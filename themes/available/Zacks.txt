@@ -3,6 +3,7 @@
 [theme/Zacks]
 color_background = #222222
 color_foreground = #f0f0f0
+color_title = #f0f0f0
 color_textbox_back = #222222
 color_faded = #f0f0f0
 color_accent = #9c7ddb

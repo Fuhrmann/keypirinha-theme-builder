@@ -3,6 +3,7 @@
 [theme/Spitfire]
 color_background = #184540
 color_foreground = #bad3d0
+color_title = #bad3d0
 color_textbox_back = #184540
 color_faded = #bad3d0
 color_accent = #f75431

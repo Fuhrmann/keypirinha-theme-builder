@@ -3,6 +3,7 @@
 [theme/SuperContrast]
 color_background = #15191d
 color_foreground = #ffffff
+color_title = #ffffff
 color_textbox_back = #15191d
 color_faded = #ffffff
 color_accent = #e45635

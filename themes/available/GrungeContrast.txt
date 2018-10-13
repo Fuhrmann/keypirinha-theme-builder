@@ -3,6 +3,7 @@
 [theme/GrungeContrast]
 color_background = #0c0c0a
 color_foreground = #f8f8f2
+color_title = #f8f8f2
 color_textbox_back = #0c0c0a
 color_faded = #f8f8f2
 color_accent = #f56991

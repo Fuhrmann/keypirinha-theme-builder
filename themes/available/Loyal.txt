@@ -3,6 +3,7 @@
 [theme/Loyal]
 color_background = #413e4f
 color_foreground = #bbb1c9
+color_title = #bbb1c9
 color_textbox_back = #413e4f
 color_faded = #bbb1c9
 color_accent = #3cbbb1

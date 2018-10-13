@@ -3,6 +3,7 @@
 [theme/LegacyContrast]
 color_background = #080a0c
 color_foreground = #aec2e0
+color_title = #aec2e0
 color_textbox_back = #080a0c
 color_faded = #aec2e0
 color_accent = #ff410d

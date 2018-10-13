@@ -3,6 +3,7 @@
 [theme/DareContrast]
 color_background = #17191c
 color_foreground = #c0ccdb
+color_title = #c0ccdb
 color_textbox_back = #17191c
 color_faded = #c0ccdb
 color_accent = #5da892

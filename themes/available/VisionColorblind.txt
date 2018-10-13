@@ -3,6 +3,7 @@
 [theme/VisionColorblind]
 color_background = #000000
 color_foreground = #ffffff
+color_title = #ffffff
 color_textbox_back = #000000
 color_faded = #ffffff
 color_accent = #f87856

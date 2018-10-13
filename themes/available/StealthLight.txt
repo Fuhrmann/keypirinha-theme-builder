@@ -3,6 +3,7 @@
 [theme/StealthLight]
 color_background = #ffffff
 color_foreground = #cccccc
+color_title = #cccccc
 color_textbox_back = #ffffff
 color_faded = #cccccc
 color_accent = #ffffff

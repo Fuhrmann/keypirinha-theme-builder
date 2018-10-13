@@ -3,6 +3,7 @@
 [theme/ComradeLight]
 color_background = #d6dbdb
 color_foreground = #343939
+color_title = #343939
 color_textbox_back = #d6dbdb
 color_faded = #343939
 color_accent = #9bb7a7

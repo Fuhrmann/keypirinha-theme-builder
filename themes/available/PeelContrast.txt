@@ -3,6 +3,7 @@
 [theme/PeelContrast]
 color_background = #0c0b0a
 color_foreground = #edebe6
+color_title = #edebe6
 color_textbox_back = #0c0b0a
 color_faded = #edebe6
 color_accent = #d3643b

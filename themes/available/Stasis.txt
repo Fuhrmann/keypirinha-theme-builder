@@ -3,6 +3,7 @@
 [theme/Stasis]
 color_background = #2f2c33
 color_foreground = #bbb1c9
+color_title = #bbb1c9
 color_textbox_back = #2f2c33
 color_faded = #bbb1c9
 color_accent = #fc814a

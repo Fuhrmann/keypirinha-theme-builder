@@ -3,6 +3,7 @@
 [theme/PastelContrast]
 color_background = #0f0f0f
 color_foreground = #eeeeee
+color_title = #eeeeee
 color_textbox_back = #0f0f0f
 color_faded = #eeeeee
 color_accent = #008d62

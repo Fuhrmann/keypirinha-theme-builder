@@ -3,6 +3,7 @@
 [theme/StarkContrast]
 color_background = #0b0a0a
 color_foreground = #dedede
+color_title = #dedede
 color_textbox_back = #0b0a0a
 color_faded = #dedede
 color_accent = #f03113

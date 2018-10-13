@@ -3,6 +3,7 @@
 [theme/OverflowContrast]
 color_background = #14181c
 color_foreground = #aeb9c4
+color_title = #aeb9c4
 color_textbox_back = #14181c
 color_faded = #aeb9c4
 color_accent = #b0ca48

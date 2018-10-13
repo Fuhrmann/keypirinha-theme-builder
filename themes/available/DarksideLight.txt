@@ -3,6 +3,7 @@
 [theme/DarksideLight]
 color_background = #e0e0e0
 color_foreground = #222324
+color_title = #222324
 color_textbox_back = #e0e0e0
 color_faded = #222324
 color_accent = #ff4e50

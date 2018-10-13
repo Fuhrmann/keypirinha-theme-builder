@@ -3,6 +3,7 @@
 [theme/SoupContrast]
 color_background = #17181c
 color_foreground = #9090b2
+color_title = #9090b2
 color_textbox_back = #17181c
 color_faded = #9090b2
 color_accent = #68b0ab

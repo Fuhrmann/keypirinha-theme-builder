@@ -3,6 +3,7 @@
 [theme/Potpourri]
 color_background = #2e2b2c
 color_foreground = #f8f8f2
+color_title = #f8f8f2
 color_textbox_back = #2e2b2c
 color_faded = #f8f8f2
 color_accent = #ed1153

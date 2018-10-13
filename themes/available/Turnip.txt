@@ -3,6 +3,7 @@
 [theme/Turnip]
 color_background = #1a1b1d
 color_foreground = #ede0ce
+color_title = #ede0ce
 color_textbox_back = #1a1b1d
 color_faded = #ede0ce
 color_accent = #487d76

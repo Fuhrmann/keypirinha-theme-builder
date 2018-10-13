@@ -3,6 +3,7 @@
 [theme/IcebergLight]
 color_background = #bdd6db
 color_foreground = #323b3d
+color_title = #323b3d
 color_textbox_back = #bdd6db
 color_faded = #323b3d
 color_accent = #2d8da1

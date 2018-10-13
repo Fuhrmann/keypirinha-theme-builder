@@ -3,6 +3,7 @@
 [theme/EarthsongContrast]
 color_background = #12100f
 color_foreground = #ebd1b7
+color_title = #ebd1b7
 color_textbox_back = #12100f
 color_faded = #ebd1b7
 color_accent = #db784d

@@ -3,6 +3,7 @@
 [theme/Coffee]
 color_background = #282122
 color_foreground = #c4babb
+color_title = #c4babb
 color_textbox_back = #282122
 color_faded = #c4babb
 color_accent = #0a9f9b

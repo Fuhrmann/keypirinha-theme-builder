@@ -3,6 +3,7 @@
 [theme/StealthContrast]
 color_background = #0d0e0f
 color_foreground = #5f656d
+color_title = #5f656d
 color_textbox_back = #0d0e0f
 color_faded = #5f656d
 color_accent = #ffffff

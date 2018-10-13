@@ -3,6 +3,7 @@
 [theme/Tickle]
 color_background = #39393a
 color_foreground = #c1c1c1
+color_title = #c1c1c1
 color_textbox_back = #39393a
 color_faded = #c1c1c1
 color_accent = #ffffff

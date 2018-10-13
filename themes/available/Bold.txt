@@ -3,6 +3,7 @@
 [theme/Bold]
 color_background = #2a2626
 color_foreground = #ffffff
+color_title = #ffffff
 color_textbox_back = #2a2626
 color_faded = #ffffff
 color_accent = #3d8e91

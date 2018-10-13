@@ -3,6 +3,7 @@
 [theme/BlinkContrast]
 color_background = #131719
 color_foreground = #c0ccdb
+color_title = #c0ccdb
 color_textbox_back = #131719
 color_faded = #c0ccdb
 color_accent = #43b5b3

@@ -3,6 +3,7 @@
 [theme/Monzo]
 color_background = #15243b
 color_foreground = #b0cbf4
+color_title = #b0cbf4
 color_textbox_back = #15243b
 color_faded = #b0cbf4
 color_accent = #98baa6

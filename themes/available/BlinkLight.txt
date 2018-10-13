@@ -3,6 +3,7 @@
 [theme/BlinkLight]
 color_background = #ffffff
 color_foreground = #6a7e89
+color_title = #6a7e89
 color_textbox_back = #ffffff
 color_faded = #6a7e89
 color_accent = #43b5b3

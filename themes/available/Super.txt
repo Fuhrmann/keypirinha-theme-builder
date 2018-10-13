@@ -3,6 +3,7 @@
 [theme/Super]
 color_background = #2c343d
 color_foreground = #ffffff
+color_title = #ffffff
 color_textbox_back = #2c343d
 color_faded = #ffffff
 color_accent = #e45635
