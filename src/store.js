@@ -107,6 +107,7 @@ const initialState = {
         layout: ['list_selmark', 'list_icon', 'list_dialnum', 'list_actions'],
         color_background: '#484848',
         color_foreground: '#f2f2f2',
+        color_title: '#f2f2f2',
         color_textbox_back: '#303030',
         color_faded: '#a2a2a2',
         color_accent: '#a6e5ff',
@@ -243,7 +244,7 @@ export const store = new Vuex.Store({
                 fontWeight: state.theme.font_large_style === 'bold' ? 'bold' : 100,
                 fontSize: `${(parseInt(state.theme.font_large_size) + 5)}px`,
                 borderColor: state.theme.color_background,
-                color: state.theme.color_foreground,
+                color: state.currentView === 'actions' ? state.theme.color_title : state.theme.color_foreground,
                 backgroundColor: state.currentView === 'actions' ? state.theme.color_background : state.theme.color_textbox_back,
                 borderRightWidth: `${state.theme.control_margin}px`,
                 borderTopWidth: `${state.theme.control_margin}px`,
@@ -361,7 +362,7 @@ export const store = new Vuex.Store({
             return {
                 color: state.theme.color_listitem_selected_tips,
             }
-        },
+        }
     },
     mutations: {
         /**

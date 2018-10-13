@@ -198,6 +198,15 @@
                         </select>
                     </div>
                 </div>
+                <div class="col-lg-2">
+                    <div class="form-group">
+                        <label for="color_title">
+                            Color title
+                            <a href="#" v-tooltip.right="'Color of the text located at the left side of the text box that is only displayed once an item has been selected with the Tab key.'">[?]</a>
+                        </label>
+                        <ColorPicker :inputid="'color_title'" :color="theme.color_title" v-model="theme.color_title"/>
+                    </div>
+                </div>
             </div>
         </fieldset>
         <fieldset>
