@@ -153,10 +153,11 @@
                 </div>
                 <div class="col-lg-2">
                     <div class="form-group">
-                        <label for="color_faded">
-                            Color Faded
+                        <label for="color_status">
+                            Color status
+                            <a href="#" v-tooltip.right="'Color of the text in the status bar'">[?]</a>
                         </label>
-                        <ColorPicker :inputid="'color_faded'" :color="theme.color_faded" v-model="theme.color_faded"/>
+                        <ColorPicker :inputid="'color_status'" :color="theme.color_status" v-model="theme.color_status"/>
                     </div>
                 </div>
                 <div class="col-lg-2">

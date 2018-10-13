@@ -13,6 +13,7 @@ color_foreground = #C93D9A
 color_title = #C93D9A
 color_textbox_back = #353841
 color_faded = #C93D9A
+color_status = #C93D9A
 color_accent = #E35050
 color_warn = #FDFEFD
 color_listitem_back = #353841

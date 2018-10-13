@@ -6,6 +6,7 @@ color_foreground = #547f91
 color_title = #547f91
 color_textbox_back = #ffffff
 color_faded = #547f91
+color_status = #547f91
 color_accent = #1ea8fc
 color_warn = #cf433e
 color_listitem_back = #ffffff

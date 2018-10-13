@@ -6,6 +6,7 @@ color_foreground = #bababa
 color_title = #bababa
 color_textbox_back = #0c0a08
 color_faded = #bababa
+color_status = #bababa
 color_accent = #008d62
 color_warn = #cf433e
 color_listitem_back = #0c0a08

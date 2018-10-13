@@ -110,6 +110,7 @@ const initialState = {
         color_title: '#f2f2f2',
         color_textbox_back: '#303030',
         color_faded: '#a2a2a2',
+        color_status: '#a2a2a2',
         color_accent: '#a6e5ff',
         color_warn: '#eb6420',
         color_listitem_back: '#383838',
@@ -342,7 +343,7 @@ export const store = new Vuex.Store({
             return {
                 backgroundColor: state.theme.color_background,
                 fontSize: `${parseInt(state.theme.font_small_size) + 4}px`,
-                color: state.theme.color_faded,
+                color: state.theme.color_status,
                 paddingRight: `${state.theme.control_margin}px`,
                 paddingBottom: `${state.theme.control_margin}px`,
             }

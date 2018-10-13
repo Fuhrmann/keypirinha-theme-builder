@@ -13,6 +13,7 @@ color_foreground = #F0526C
 color_title = #F0526C
 color_textbox_back = #FFFFFF
 color_faded = #F0526C
+color_status = #F0526C
 color_accent = #FFFFFF
 color_warn = #FFFFFF
 color_listitem_back = #F0526C
