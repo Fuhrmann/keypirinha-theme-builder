@@ -1,7 +1,7 @@
 [theme/GirlWithKitten]
 opacity_back = 100
 satellite_show = always
-satellite_pos = topleft
+satellite_pos = topcenter
 satellite_size = small
 control_margin = 10
 textbox_padding = 1

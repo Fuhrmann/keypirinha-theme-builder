@@ -2,7 +2,7 @@
 [theme/NeonDreams]
 opacity_back = 100
 satellite_show = always
-satellite_pos = topleft
+satellite_pos = topcenter
 satellite_size = jumbo
 control_margin = 15
 textbox_padding = 2
