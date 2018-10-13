@@ -513,9 +513,9 @@
                 this.isModalImportVisible = false;
             },
             downloadTheme() {
-                let theme = `[theme/${this.themeName}]\n`;
+                let theme = `[theme/${this.themeName}]\r\n`;
                 for (let key of Object.keys(this.theme)) {
-                    theme += `${key} = ${this.theme[key]}\n`
+                    theme += `${key} = ${this.theme[key]}\r\n`
                 }
 
                 const element = document.createElement('a');
