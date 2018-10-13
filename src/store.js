@@ -23,6 +23,7 @@ const initialState = {
         {name: 'small', size: '32'},
         {name: 'large', size: '64'},
         {name: 'jumbo', size: '128'},
+        {name: 'superjumbo', size: '256'},
     ],
     presets: [
         {
@@ -232,7 +233,33 @@ export const store = new Vuex.Store({
          * The style used in keypirinha's container.
          */
         keypirinhaStyle(state) {
+
+            const satellite = state.theme.satellite_show;
+
+            let marginTop = 0;
+            switch (state.theme.satellite_size) {
+                case 'small':
+                    marginTop = 55;
+                    break;
+                case 'large':
+                    marginTop = 85;
+                    break;
+                case 'jumbo':
+                    marginTop = 155;
+                    break;
+                case 'superjumbo':
+                    marginTop = 285;
+                    break;
+                default:
+                    marginTop = 0
+            }
+
+            if (satellite == 'never') {
+                marginTop = 15
+            }
+
             return {
+                marginTop: `${marginTop}px`,
                 opacity: state.theme.opacity_back / 100,
             }
         },

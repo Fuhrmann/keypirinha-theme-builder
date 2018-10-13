@@ -96,6 +96,7 @@
                             <option value="small">small</option>
                             <option value="large">large</option>
                             <option value="jumbo">jumbo</option>
+                            <option value="superjumbo">superjumbo</option>
                         </select>
                     </div>
                 </div>
