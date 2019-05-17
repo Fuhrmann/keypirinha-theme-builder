@@ -2,7 +2,7 @@
 
 ## Keypirinha Theme Builder
 
-A tool to create themes for [Keypirinha](http://keypirinha.com) launcher. [Click here](https://fuhrmann.github.io/keypirinha-theme-builder/) to start create your own themes!
+A tool to create themes for the [Keypirinha](http://keypirinha.com) launcher. [Click here](https://fuhrmann.github.io/keypirinha-theme-builder/) to start creating your own themes!
 
 ## Themes
 
