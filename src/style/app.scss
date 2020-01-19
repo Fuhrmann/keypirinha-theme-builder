@@ -24,8 +24,9 @@ body {
 }
 
 .keypirinha {
-  width: 635px;
-  margin: 155px auto 0 auto;
+  margin: 0 auto;
+  width: auto;
+  max-width: 635px;
 
   .logo {
     img {
@@ -46,7 +47,7 @@ body {
     width: 100%;
     box-sizing: border-box;
     position: relative;
-    display: table;
+    //display: table;
 
     .input {
       display: table-cell;
@@ -131,8 +132,22 @@ body {
   }
 }
 
+.options {
+  max-width: 635px;
+  margin: 0 auto;
+}
+
 .configuration {
   margin-bottom: 50px;
+
+  fieldset {
+    border-bottom: 1px solid #EEE;
+    margin-top: 10px;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
 }
 
 .vc-chrome {
@@ -263,4 +278,15 @@ body {
 
 .btn:focus {
   outline: none;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+
+  &:before, &:after {
+    content: '';
+    display: table;
+  }
 }
