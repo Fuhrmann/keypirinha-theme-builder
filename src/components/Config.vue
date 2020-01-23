@@ -33,7 +33,7 @@
                             Preset
                             <a href="#" v-tooltip.right="'A layout preset to help you customize the theme'">[?]</a>
                         </label>
-                        <select class="form-control form-control-sm" id="preset" name="preset" v-model="selectedPreset">
+                        <select class="form-control form-control-sm" id="preset" name="preset" v-model="currentPreset">
                             <option :value="preset.name" v-for="preset in presets">{{ preset.name }}</option>
                         </select>
                     </div>
@@ -475,22 +475,18 @@
     data() {
       return {
         baseTheme: null,
-        selectedPreset: 'JumboLayout',
         loadingBaseTheme: false,
       };
     },
     watch: {
-      selectedPreset(newValue) {
-        if (newValue) {
-          const preset = this.presets.filter(item => item.name === newValue)[0];
-          this.bulkUpdateTheme(preset.theme);
-        }
-      },
       selectedTheme(theme) {
         this.baseTheme = theme;
       },
     },
     methods: {
+      /**
+       * Import the theme from the selection.
+       */
       importFromSelect() {
         if (this.baseTheme) {
           this.importThemeFromFile(this.baseTheme);
@@ -507,6 +503,7 @@
         'themes',
         'presets',
         'views',
+        'preset',
       ]),
       selectedTheme: {
         get() {
@@ -527,6 +524,14 @@
         },
         set(value) {
           this.$store.commit('setCurrentView', value);
+        },
+      },
+      currentPreset: {
+        get() {
+          return this.$store.state.preset;
+        },
+        set(value) {
+          this.$store.commit('setPreset', value);
         },
       },
     },

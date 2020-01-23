@@ -104,6 +104,7 @@ const initialState = {
         {id: 'actions', name: "Actions view"}
     ],
     currentView: 'results',
+    preset: 'JumboLayout',
     themes: [],
     selectedTheme: null,
     theme: {
@@ -220,6 +221,12 @@ export const store = new Vuex.Store({
          */
         currentView(state) {
             return state.currentView;
+        },
+        /**
+         * The current preset selected by the user.
+         */
+        preset(state) {
+            return state.preset;
         },
         /**
          * The style used in the box above keypirinha's search box
@@ -537,6 +544,16 @@ export const store = new Vuex.Store({
         },
 
         /**
+         * Update the preset.
+         */
+        setPreset(state, name) {
+            state.preset = name;
+
+            const presetData = state.presets.filter(item => item.name === state.preset)[0];
+            store.commit('bulkUpdateTheme', presetData.theme);
+        },
+
+        /**
          * Update the selected (from file) theme name.
          */
         setSelectedTheme(state, name) {
@@ -548,6 +565,7 @@ export const store = new Vuex.Store({
          */
         resetTheme(state) {
             state.theme = initialState.theme;
+            state.preset = initialState.preset;
         },
 
         /**
